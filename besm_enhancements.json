@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Area",
+    "description": "Area defines the radius of influence of the Attribute, \nwhich is usually centred on the character. If the Area \nEnhancement is not assigned to an Attribute, it usually \nmeans the Attribute can affect only a single individual \nperson or object.\nAREA AND WEAPONS\nIf Area is assigned to the Weapon Attribute, the \nattacking character only makes one attack roll, but \neveryone in the Area of effect makes their own defence \nroll. Consequently, some targets in the Area may be \naffected by the Weapon while others may defend \nsuccessfully. Furthermore, the GM may decide that \na successful defence roll is not enough to escape the \nattack completely if there is no nearby cover to move \nbehind that would completely block the effects of the \nAttribute. In these situations, instead of negating the \nArea Weapon effect completely, a successful defence roll \nreduces damage by half.",
+    "assignment_effects": [
+      {
+        "assignments": 0,
+        "text": "Single individual person/object"
+      },
+      {
+        "assignments": 1,
+        "text": "Affects a small Area within quick reach (3 metres radius)"
+      },
+      {
+        "assignments": 2,
+        "text": "Affects a moderate Area within a short sprinting distance (10 metres radius)"
+      },
+      {
+        "assignments": 3,
+        "text": "Affects a building-sized Area (100 metres radius)"
+      },
+      {
+        "assignments": 4,
+        "text": "Affects a neighbourhood-sized Area (1 km radius)"
+      },
+      {
+        "assignments": 5,
+        "text": "Affects a city-sized Area (10 km radius)"
+      },
+      {
+        "assignments": 6,
+        "text": "Affects a county-sized Area (100 km radius)"
+      }
+    ]
+  },
+  {
+    "name": "Duration",
+    "description": "Duration determines the maximum period of time \nthat the Attribute\u2019s effect will influence a target (requires \nno concentration to maintain after it is activated). Most \nAttributes indicate in their descriptions how long it \noperates normally; adding the Duration Enhancement \nwill increase this time. Duration does not usually apply \nwhen using the Attribute when affecting themselves \n(with the exception of the Mimic Attribute), since the \ncharacter can simply reactivate the Attribute at will. At \nthe end of an Attribute\u2019s Duration, its effects will cease. \nIn circumstances where an Attribute\u2019s effects should be \npermanent, 10 assignments of Duration can be applied \nwith GM permission (10 assignments = 1,000 years, \nwhich can be considered permanent).DURATION AND WEAPONS\nIf Duration is applied to the Weapon Attribute, \nit is usually assigned in conjunction with the Area \nEnhancement. This means the Weapon attack remains \nactive within the affected area for a prolonged period. \nExamples of this type of attack include chemical clouds, \nsheets of fire, electrical charges, or freezing vapours. \nIf someone enters the Area while the Duration is still \nongoing, they suffer damage or other effects as if they \nhave been struck by the attack and will continue to suffer \nthe effects each round until they leave the vicinity. The \nstarting time for Duration when assigned to Weapons is \ndifferent than for other Attributes as noted.",
+    "assignment_effects": [
+      {
+        "assignments": 0,
+        "text": "Remains in effect as long as the Attribute description indicates"
+      },
+      {
+        "assignments": 1,
+        "text": "Remains in effect for 10 minutes (or 2 rounds for Weapons)"
+      },
+      {
+        "assignments": 2,
+        "text": "Remains in effect for 1 hour (or 5 rounds for Weapons)"
+      },
+      {
+        "assignments": 3,
+        "text": "Remains in effect for 1 day (or 10 rounds for Weapons)"
+      },
+      {
+        "assignments": 4,
+        "text": "Remains in effect for 1 week (or 1 minute for Weapons)"
+      },
+      {
+        "assignments": 5,
+        "text": "Remains in effect for 1 month (or 1 hour for Weapons)"
+      },
+      {
+        "assignments": 6,
+        "text": "Remains in effect for 1 season (or 1 day for Weapons)"
+      },
+      {
+        "assignments": 10,
+        "text": "Permanent (with GM permission)"
+      }
+    ]
+  },
+  {
+    "name": "Range",
+    "description": "Range is a measure of how far away from the character \nthe centre of an Attribute can be manifested (or fired, \nin the case of Weapons) and should not be confused \nwith the Area Enhancement. If the Attribute also has \nArea assigned, characters may centre the Area effect on \nany location within the Range. Without assigning the \nRange Enhancement, an Attribute can only be used on \nthe character directly or when touching a target.",
+    "assignment_effects": [
+      {
+        "assignments": 0,
+        "text": "Activated through touch"
+      },
+      {
+        "assignments": 1,
+        "text": "Short Range (3 metres)"
+      },
+      {
+        "assignments": 2,
+        "text": "Moderate Range (10 metres)"
+      },
+      {
+        "assignments": 3,
+        "text": "Building-sized Range (100 metres)"
+      },
+      {
+        "assignments": 4,
+        "text": "Neighbourhood-sized Range (1 km)"
+      },
+      {
+        "assignments": 5,
+        "text": "City-sized Range (10 km)"
+      },
+      {
+        "assignments": 6,
+        "text": "County-sized Range (100 km)"
+      }
+    ]
+  },
+  {
+    "name": "Targets",
+    "description": "Targets refers to the maximum number of people \n(or mass of objects, as relevant) that the Attribute can \naffect. If Targets is not assigned, the Attribute usually \nonly affects the character directly or one other person as \nindicated in the Attribute description.\nTARGETS AND WEAPONS\nCharacters do not normally assign Targets to Weapons. \nInstead, assign the Area or Spreading Enhancements.",
+    "assignment_effects": [
+      {
+        "assignments": 0,
+        "text": "Affects the character directly or one target (as appropriate)"
+      },
+      {
+        "assignments": 1,
+        "text": "Affect up to 2 Targets at once"
+      },
+      {
+        "assignments": 2,
+        "text": "Affect up to 5 Targets at once"
+      },
+      {
+        "assignments": 3,
+        "text": "Affect up to 10 Targets at once"
+      },
+      {
+        "assignments": 4,
+        "text": "Affect up to 25 Targets at once"
+      },
+      {
+        "assignments": 5,
+        "text": "Affect up to 50 Targets at once"
+      },
+      {
+        "assignments": 6,
+        "text": "Affect up to 100 Targets at once"
+      }
+    ]
+  },
+  {
+    "name": "Potent",
+    "description": "Potent is usually only assigned to Level 1 Attributes. \nTo design an Attribute\u2019s functionality to match a specific \nvision for your character, it\u2019s sometimes necessary to \nassign more Limiters than Enhancements. Doing so \nincreases the effective Level of an Attribute beyond \nthe assigned Level. For example, a player might want \ntheir character to have a version of Flight that requires \nslight concentration while flying (one assignment of the \nConcentration Limiter) and burns 10 Energy Points \nfor every minute of use (one assignment of the Deplete \nLimiter). An Attribute with two Limiters assigned \nfunctions at two Levels higher than the actual Attribute \nLevel so the player would only need to purchase Flight \nat Level 1 (10 kph speed) to gain the benefits of the \neffective Flight Level 3 (100 kph speed).\nBut what if the player only wants their character to \nfly at a top speed of 10 kph (Level 1 Flight) or 30 kph \n(Level 2 Flight)? With the two Limiters assigned, the \nslowest speed from a Level 1 Attribute assignment is \n100 kph (Level 1 + 2 Limiters = effective Level 3 ability). \nThat\u2019s where the Potent Enhancement comes in, which \nprovides a more robust application of the Attribute \nbut reigns in the effective Level to match the player\u2019s \nintention with their character. The intended function \nALLOWABLE \nENHANCEMENTS\nAttribute Name Enhancements\nControl Environment Area, Duration, Range\nDimension Walk Area\nDynamic Powers Area, Duration, Range, Targets\nExorcism Area, Range, Targets\nForce Field Area, Duration, Range\nHealing Area, Range, Targets\nIllusion Area, Duration, Range, Targets\nMerge Duration\nMetamorphosis Area, Duration, Range, Targets\nMimic Duration, Range\nMind Control Area, Duration, Range, Targets\nNullify Area, Duration, Range, Targets\nPlant Control Duration\nPortal Area, Duration, Range, Targets\nPower Flux Area, Duration, Range, Targets\nPower Variation Area, Duration, Range, Targets\nProjection Area, Duration, Range\nSensory Block Area, Duration, Range\nSixth Sense Area\nSize Change Duration\nSummon Creatures Duration\nTelekinesis Area, Range\nTelepathy Area, Range, Targets\nTeleport Area, Range, Targets\nTransfer Duration, Range\nTransmute Duration, Range, Targets\nUnique Attribute Area, Duration, Range, Targets\nUnknown Power Area, Duration, Range, Targets\nWeapon Area, Duration, Range11\n\nCUSTOMISATION\nCUSTOMISATION\nof this Limiter is why you usually only assign Potent \nto Level 1 Attributes (unless the GM decides otherwise \nto reflect a specific function, as is the case with some \nshields, page 212).\nFor details about minor and major edges, as well as \nStat and Skill rolls, see Chapter 9: Action (page 172).",
+    "assignment_effects": [
+      {
+        "assignments": 0,
+        "text": "Functions as indicated in the Attribute description"
+      },
+      {
+        "assignments": 1,
+        "text": "The character receives a minor edge on Stat and Skill rolls in circumstances involving the Attribute\u2019s use"
+      },
+      {
+        "assignments": 2,
+        "text": "The character receives a major edge on Stat and Skill rolls in circumstances involving the Attribute\u2019s use"
+      },
+      {
+        "assignments": 3,
+        "text": "Similar to 1 Assignment, plus the character can also re-roll their dice once for each circumstance involving the Attribute\u2019s use (retaining the minor edge on the re-roll and keeping the best of the two rolls)"
+      },
+      {
+        "assignments": 4,
+        "text": "Similar to 2 Assignment, plus the character can also re-roll their dice once for each circumstance involving the Attribute\u2019s use (retaining the major edge on the re-roll and keeping the best of the two rolls)"
+      },
+      {
+        "assignments": 5,
+        "text": "Similar to 4 Assignments, but with the character gaining two re-rolls for each circumstance"
+      },
+      {
+        "assignments": 6,
+        "text": "Similar to 4 Assignments, but with the character gaining three re-rolls for each circumstance"
+      }
+    ]
+  }
+]
