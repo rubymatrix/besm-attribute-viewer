@@ -12,11 +12,8 @@
     <header class="mb-6">
       <h1 class="text-3xl font-bold tracking-tight mb-2">BESM Data Viewer</h1>
       <p class="text-sm text-slate-300">
-        Automatically loads <span class="font-mono">besm_attributes.json</span>,
-        <span class="font-mono">besm_enhancements.json</span>, and
-        <span class="font-mono">besm_limiters.json</span> from the current directory.
-        Use the tabs to switch between Attributes, Enhancements, and Limiters.
-        Click a row to see full details.
+        Loads multiple BESM rule JSON files from the current directory.
+        Use the tabs to switch sections, search by name, and click a row to see full details.
       </p>
     </header>
 
@@ -25,27 +22,36 @@
       <!-- Tabs -->
       <div class="w-full md:w-auto">
         <div class="border-b border-slate-700">
-          <nav class="flex space-x-2">
-            <button
-              id="tabAttributes"
+          <nav class="flex flex-wrap gap-1">
+            <button id="tab-attributes"
               class="px-3 py-2 text-sm font-medium rounded-t-md bg-slate-800 text-emerald-300 border-b-2 border-emerald-400"
-              type="button"
-            >
+              type="button">
               Attributes
             </button>
-            <button
-              id="tabEnhancements"
+            <button id="tab-enhancements"
               class="px-3 py-2 text-sm font-medium rounded-t-md text-slate-300 hover:bg-slate-800 border-b-2 border-transparent"
-              type="button"
-            >
+              type="button">
               Enhancements
             </button>
-            <button
-              id="tabLimiters"
+            <button id="tab-limiters"
               class="px-3 py-2 text-sm font-medium rounded-t-md text-slate-300 hover:bg-slate-800 border-b-2 border-transparent"
-              type="button"
-            >
+              type="button">
               Limiters
+            </button>
+            <button id="tab-defects"
+              class="px-3 py-2 text-sm font-medium rounded-t-md text-slate-300 hover:bg-slate-800 border-b-2 border-transparent"
+              type="button">
+              Defects
+            </button>
+            <button id="tab-weapon-enhancements"
+              class="px-3 py-2 text-sm font-medium rounded-t-md text-slate-300 hover:bg-slate-800 border-b-2 border-transparent"
+              type="button">
+              Weapon Enhancements
+            </button>
+            <button id="tab-weapon-limiters"
+              class="px-3 py-2 text-sm font-medium rounded-t-md text-slate-300 hover:bg-slate-800 border-b-2 border-transparent"
+              type="button">
+              Weapon Limiters
             </button>
           </nav>
         </div>
@@ -54,7 +60,7 @@
       <!-- Search -->
       <div class="w-full md:w-80">
         <label class="block text-sm font-medium mb-1" for="searchInput">
-          Search by Name (Active Tab)
+          Search by Name (active tab)
         </label>
         <input
           id="searchInput"
@@ -67,14 +73,12 @@
     </div>
 
     <!-- Status -->
-    <div id="status" class="text-sm text-slate-300 mb-3">
-      Loading data...
-    </div>
+    <div id="status" class="text-sm text-slate-300 mb-3">Loading data...</div>
 
-    <!-- TABLES WRAPPER -->
+    <!-- Tables -->
     <div class="bg-slate-800/60 border border-slate-700 rounded-lg shadow-sm overflow-hidden">
-      <!-- Attributes Table -->
-      <div id="attributesSection">
+      <!-- Attributes -->
+      <section id="section-attributes">
         <div class="overflow-x-auto max-h-[70vh]">
           <table class="min-w-full text-sm">
             <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
@@ -84,15 +88,13 @@
                 <th class="px-4 py-2 text-left font-semibold text-slate-200">Relevant Stat</th>
               </tr>
             </thead>
-            <tbody id="attributesBody" class="divide-y divide-slate-700">
-              <!-- Rows injected by JS -->
-            </tbody>
+            <tbody id="tbody-attributes" class="divide-y divide-slate-700"></tbody>
           </table>
         </div>
-      </div>
+      </section>
 
-      <!-- Enhancements Table -->
-      <div id="enhancementsSection" class="hidden">
+      <!-- Enhancements -->
+      <section id="section-enhancements" class="hidden">
         <div class="overflow-x-auto max-h-[70vh]">
           <table class="min-w-full text-sm">
             <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
@@ -100,15 +102,13 @@
                 <th class="px-4 py-2 text-left font-semibold text-slate-200">Name</th>
               </tr>
             </thead>
-            <tbody id="enhancementsBody" class="divide-y divide-slate-700">
-              <!-- Rows injected by JS -->
-            </tbody>
+            <tbody id="tbody-enhancements" class="divide-y divide-slate-700"></tbody>
           </table>
         </div>
-      </div>
+      </section>
 
-      <!-- Limiters Table -->
-      <div id="limitersSection" class="hidden">
+      <!-- Limiters -->
+      <section id="section-limiters" class="hidden">
         <div class="overflow-x-auto max-h-[70vh]">
           <table class="min-w-full text-sm">
             <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
@@ -116,26 +116,61 @@
                 <th class="px-4 py-2 text-left font-semibold text-slate-200">Name</th>
               </tr>
             </thead>
-            <tbody id="limitersBody" class="divide-y divide-slate-700">
-              <!-- Rows injected by JS -->
-            </tbody>
+            <tbody id="tbody-limiters" class="divide-y divide-slate-700"></tbody>
           </table>
         </div>
-      </div>
+      </section>
+
+      <!-- Defects -->
+      <section id="section-defects" class="hidden">
+        <div class="overflow-x-auto max-h-[70vh]">
+          <table class="min-w-full text-sm">
+            <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
+              <tr>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Name</th>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Type</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-defects" class="divide-y divide-slate-700"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Weapon Enhancements -->
+      <section id="section-weapon-enhancements" class="hidden">
+        <div class="overflow-x-auto max-h-[70vh]">
+          <table class="min-w-full text-sm">
+            <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
+              <tr>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Name</th>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Ranks</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-weapon-enhancements" class="divide-y divide-slate-700"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Weapon Limiters -->
+      <section id="section-weapon-limiters" class="hidden">
+        <div class="overflow-x-auto max-h-[70vh]">
+          <table class="min-w-full text-sm">
+            <thead class="bg-slate-800 border-b border-slate-700 sticky top-0 z-10">
+              <tr>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Name</th>
+                <th class="px-4 py-2 text-left font-semibold text-slate-200">Ranks</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-weapon-limiters" class="divide-y divide-slate-700"></tbody>
+          </table>
+        </div>
+      </section>
     </div>
   </div>
 
-  <!-- Detail Modal -->
-  <div
-    id="detailModal"
-    class="fixed inset-0 z-50 hidden"
-    aria-modal="true"
-    role="dialog"
-  >
-    <!-- Backdrop -->
+  <!-- Modal -->
+  <div id="detailModal" class="fixed inset-0 z-50 hidden" aria-modal="true" role="dialog">
     <div id="modalBackdrop" class="absolute inset-0 bg-black/60"></div>
-
-    <!-- Modal Panel -->
     <div class="relative z-10 flex items-start justify-center min-h-full p-4">
       <div class="w-full max-w-3xl bg-slate-900 border border-slate-700 rounded-lg shadow-xl">
         <div class="flex items-start justify-between px-5 py-4 border-b border-slate-700">
@@ -150,17 +185,11 @@
             Close
           </button>
         </div>
-
         <div class="px-5 py-4 space-y-4 max-h-[70vh] overflow-y-auto">
-          <!-- CUSTOM DATA FIRST -->
           <section>
             <h3 id="modalExtraTitle" class="text-sm font-semibold text-slate-200 mb-1"></h3>
-            <div id="modalExtraContent" class="text-sm text-slate-200">
-              <!-- Level/Assignment effects -->
-            </div>
+            <div id="modalExtraContent" class="text-sm text-slate-200"></div>
           </section>
-
-          <!-- DESCRIPTION AT BOTTOM -->
           <section>
             <h3 class="text-sm font-semibold text-slate-200 mb-1">Description</h3>
             <div id="modalDescription" class="text-sm text-slate-200 leading-relaxed"></div>
@@ -170,343 +199,7 @@
     </div>
   </div>
 
-  <script>
-    const statusEl = document.getElementById('status');
-    const searchInput = document.getElementById('searchInput');
-
-    const tabAttributes = document.getElementById('tabAttributes');
-    const tabEnhancements = document.getElementById('tabEnhancements');
-    const tabLimiters = document.getElementById('tabLimiters');
-
-    const attributesSection = document.getElementById('attributesSection');
-    const enhancementsSection = document.getElementById('enhancementsSection');
-    const limitersSection = document.getElementById('limitersSection');
-
-    const attributesBody = document.getElementById('attributesBody');
-    const enhancementsBody = document.getElementById('enhancementsBody');
-    const limitersBody = document.getElementById('limitersBody');
-
-    const modal = document.getElementById('detailModal');
-    const modalBackdrop = document.getElementById('modalBackdrop');
-    const modalCloseBtn = document.getElementById('modalCloseBtn');
-    const modalName = document.getElementById('modalName');
-    const modalMeta = document.getElementById('modalMeta');
-    const modalDescription = document.getElementById('modalDescription');
-    const modalExtraTitle = document.getElementById('modalExtraTitle');
-    const modalExtraContent = document.getElementById('modalExtraContent');
-
-    let activeTab = 'attributes';
-
-    let attributesData = [];
-    let filteredAttributes = [];
-    let enhancementsData = [];
-    let filteredEnhancements = [];
-    let limitersData = [];
-    let filteredLimiters = [];
-
-    function updateStatus(text) {
-      statusEl.textContent = text;
-    }
-
-    function formatMultiline(text) {
-      if (!text) return "";
-      // single <br> per newline
-      return text.replace(/\n/g, "<br>");
-    }
-
-    // ---- Modal ----
-    function showModal({ name, meta, descriptionHTML, extraTitle, extraHTML }) {
-      modalName.textContent = name || "";
-      modalMeta.textContent = meta || "";
-      modalExtraTitle.textContent = extraTitle || "";
-      modalExtraContent.innerHTML = extraHTML || "—";
-      modalDescription.innerHTML = descriptionHTML || "";
-      modal.classList.remove('hidden');
-    }
-
-    function hideModal() {
-      modal.classList.add('hidden');
-    }
-
-    // Click outside (backdrop) closes
-    modalBackdrop.addEventListener('click', hideModal);
-    // Close button
-    modalCloseBtn.addEventListener('click', hideModal);
-    // Escape key closes
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-        hideModal();
-      }
-    });
-
-    // ---- Rendering ----
-    function renderAttributesTable(data) {
-      attributesBody.innerHTML = "";
-
-      if (!data.length) {
-        attributesBody.innerHTML =
-          `<tr><td colspan="3" class="px-4 py-4 text-center text-slate-400">No attributes found.</td></tr>`;
-        return;
-      }
-
-      data.forEach(attr => {
-        const tr = document.createElement('tr');
-        tr.className = "hover:bg-slate-700/40 transition cursor-pointer";
-
-        tr.innerHTML = `
-          <td class="px-4 py-2 align-top font-semibold text-emerald-300">${attr.name || ""}</td>
-          <td class="px-4 py-2 align-top whitespace-nowrap">${attr.attribute_cost || ""}</td>
-          <td class="px-4 py-2 align-top whitespace-nowrap">${attr.relevant_stat || "—"}</td>
-        `;
-
-        tr.addEventListener('click', () => {
-          const descriptionHTML = formatMultiline(attr.description || "");
-          let extraHTML = "—";
-
-          if (Array.isArray(attr.level_effects) && attr.level_effects.length) {
-            extraHTML = `
-              <ul class="list-disc list-inside space-y-0.5">
-                ${attr.level_effects
-                  .map(le => `<li><span class="font-semibold">Level ${le.level}:</span> ${le.text}</li>`)
-                  .join("")}
-              </ul>
-            `;
-          }
-
-          showModal({
-            name: attr.name || "",
-            meta: [
-              attr.attribute_cost ? `Cost: ${attr.attribute_cost}` : "",
-              attr.relevant_stat ? `Relevant Stat: ${attr.relevant_stat}` : ""
-            ].filter(Boolean).join(" • "),
-            descriptionHTML,
-            extraTitle: "Level Effects",
-            extraHTML
-          });
-        });
-
-        attributesBody.appendChild(tr);
-      });
-    }
-
-    function renderEnhancementsTable(data) {
-      enhancementsBody.innerHTML = "";
-
-      if (!data.length) {
-        enhancementsBody.innerHTML =
-          `<tr><td class="px-4 py-4 text-center text-slate-400">No enhancements found.</td></tr>`;
-        return;
-      }
-
-      data.forEach(enh => {
-        const tr = document.createElement('tr');
-        tr.className = "hover:bg-slate-700/40 transition cursor-pointer";
-
-        tr.innerHTML = `
-          <td class="px-4 py-2 align-top font-semibold text-emerald-300">${enh.name || ""}</td>
-        `;
-
-        tr.addEventListener('click', () => {
-          const descriptionHTML = formatMultiline(enh.description || "");
-          let extraHTML = "—";
-
-          if (Array.isArray(enh.assignment_effects) && enh.assignment_effects.length) {
-            extraHTML = `
-              <ul class="list-disc list-inside space-y-0.5">
-                ${enh.assignment_effects
-                  .map(ae => `<li><span class="font-semibold">${ae.assignments} Assignment${ae.assignments === 1 ? '' : 's'}:</span> ${ae.text}</li>`)
-                  .join("")}
-              </ul>
-            `;
-          }
-
-          showModal({
-            name: enh.name || "",
-            meta: "Enhancement",
-            descriptionHTML,
-            extraTitle: "Assignment Effects",
-            extraHTML
-          });
-        });
-
-        enhancementsBody.appendChild(tr);
-      });
-    }
-
-    function renderLimitersTable(data) {
-      limitersBody.innerHTML = "";
-
-      if (!data.length) {
-        limitersBody.innerHTML =
-          `<tr><td class="px-4 py-4 text-center text-slate-400">No limiters found.</td></tr>`;
-        return;
-      }
-
-      data.forEach(lim => {
-        const tr = document.createElement('tr');
-        tr.className = "hover:bg-slate-700/40 transition cursor-pointer";
-
-        tr.innerHTML = `
-          <td class="px-4 py-2 align-top font-semibold text-emerald-300">${lim.name || ""}</td>
-        `;
-
-        tr.addEventListener('click', () => {
-          const descriptionHTML = formatMultiline(lim.description || "");
-          let extraHTML = "—";
-
-          if (Array.isArray(lim.assignment_effects) && lim.assignment_effects.length) {
-            extraHTML = `
-              <ul class="list-disc list-inside space-y-0.5">
-                ${lim.assignment_effects
-                  .map(ae => `<li><span class="font-semibold">${ae.assignments} Assignment${ae.assignments === 1 ? '' : 's'}:</span> ${ae.text}</li>`)
-                  .join("")}
-              </ul>
-            `;
-          }
-
-          showModal({
-            name: lim.name || "",
-            meta: "Limiter",
-            descriptionHTML,
-            extraTitle: "Assignment Effects",
-            extraHTML
-          });
-        });
-
-        limitersBody.appendChild(tr);
-      });
-    }
-
-    // ---- Filter/Search ----
-    function applyFilter() {
-      const query = searchInput.value.toLowerCase().trim();
-
-      if (activeTab === 'attributes') {
-        filteredAttributes = !query
-          ? attributesData.slice()
-          : attributesData.filter(attr =>
-              (attr.name || "").toLowerCase().includes(query)
-            );
-        renderAttributesTable(filteredAttributes);
-        updateStatus(
-          `Loaded ${attributesData.length} attributes, ${enhancementsData.length} enhancements, ${limitersData.length} limiters. Showing ${filteredAttributes.length} attribute(s).`
-        );
-      } else if (activeTab === 'enhancements') {
-        filteredEnhancements = !query
-          ? enhancementsData.slice()
-          : enhancementsData.filter(enh =>
-              (enh.name || "").toLowerCase().includes(query)
-            );
-        renderEnhancementsTable(filteredEnhancements);
-        updateStatus(
-          `Loaded ${attributesData.length} attributes, ${enhancementsData.length} enhancements, ${limitersData.length} limiters. Showing ${filteredEnhancements.length} enhancement(s).`
-        );
-      } else {
-        filteredLimiters = !query
-          ? limitersData.slice()
-          : limitersData.filter(lim =>
-              (lim.name || "").toLowerCase().includes(query)
-            );
-        renderLimitersTable(filteredLimiters);
-        updateStatus(
-          `Loaded ${attributesData.length} attributes, ${enhancementsData.length} enhancements, ${limitersData.length} limiters. Showing ${filteredLimiters.length} limiter(s).`
-        );
-      }
-    }
-
-    searchInput.addEventListener('input', applyFilter);
-
-    // ---- Tabs ----
-    function setActiveTab(tab) {
-      activeTab = tab;
-
-      if (tab === 'attributes') {
-        attributesSection.classList.remove('hidden');
-        enhancementsSection.classList.add('hidden');
-        limitersSection.classList.add('hidden');
-
-        tabAttributes.classList.add('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabAttributes.classList.remove('text-slate-300', 'border-transparent');
-
-        tabEnhancements.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabEnhancements.classList.add('text-slate-300', 'border-transparent');
-
-        tabLimiters.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabLimiters.classList.add('text-slate-300', 'border-transparent');
-      } else if (tab === 'enhancements') {
-        attributesSection.classList.add('hidden');
-        enhancementsSection.classList.remove('hidden');
-        limitersSection.classList.add('hidden');
-
-        tabEnhancements.classList.add('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabEnhancements.classList.remove('text-slate-300', 'border-transparent');
-
-        tabAttributes.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabAttributes.classList.add('text-slate-300', 'border-transparent');
-
-        tabLimiters.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabLimiters.classList.add('text-slate-300', 'border-transparent');
-      } else {
-        attributesSection.classList.add('hidden');
-        enhancementsSection.classList.add('hidden');
-        limitersSection.classList.remove('hidden');
-
-        tabLimiters.classList.add('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabLimiters.classList.remove('text-slate-300', 'border-transparent');
-
-        tabAttributes.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabAttributes.classList.add('text-slate-300', 'border-transparent');
-
-        tabEnhancements.classList.remove('bg-slate-800', 'text-emerald-300', 'border-emerald-400');
-        tabEnhancements.classList.add('text-slate-300', 'border-transparent');
-      }
-
-      applyFilter();
-    }
-
-    tabAttributes.addEventListener('click', () => setActiveTab('attributes'));
-    tabEnhancements.addEventListener('click', () => setActiveTab('enhancements'));
-    tabLimiters.addEventListener('click', () => setActiveTab('limiters'));
-
-    // ---- Initial Load ----
-    async function loadData() {
-      try {
-        const [attrRes, enhRes, limRes] = await Promise.all([
-          fetch('./besm_attributes.json'),
-          fetch('./besm_enhancements.json'),
-          fetch('./besm_limiters.json')
-        ]);
-
-        if (!attrRes.ok) throw new Error('Failed to load besm_attributes.json');
-        if (!enhRes.ok) throw new Error('Failed to load besm_enhancements.json');
-        if (!limRes.ok) throw new Error('Failed to load besm_limiters.json');
-
-        attributesData = await attrRes.json();
-        enhancementsData = await enhRes.json();
-        limitersData = await limRes.json();
-
-        filteredAttributes = attributesData.slice();
-        filteredEnhancements = enhancementsData.slice();
-        filteredLimiters = limitersData.slice();
-
-        renderAttributesTable(filteredAttributes);
-        renderEnhancementsTable(filteredEnhancements);
-        renderLimitersTable(filteredLimiters);
-
-        updateStatus(
-          `Loaded ${attributesData.length} attributes, ${enhancementsData.length} enhancements, and ${limitersData.length} limiters.`
-        );
-      } catch (err) {
-        console.error(err);
-        updateStatus('Error loading JSON files from "./". If opened via file://, consider using a local HTTP server.');
-      }
-    }
-
-    window.addEventListener('DOMContentLoaded', () => {
-      loadData().then(() => {
-        setActiveTab('attributes');
-      });
-    });
-  </script>
+  <!-- Main JS -->
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

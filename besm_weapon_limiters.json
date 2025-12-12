@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Alt-Munition",
+    "ranks": "Special",
+    "description": ""
+  },
+  {
+    "name": "Ingest",
+    "ranks": "1",
+    "description": "The Weapon \u2013 usually a poisonous liquid, powder, \nor plant \u2013 must actually be ingested by the target in \norder to have an effect. This Limiter is often associated \nwith the Blight and Drain Enhancements, as well as the \nToxic Limiter. The nature of the Weapon usually makes \nit incompatible with the T rap Enhancement."
+  },
+  {
+    "name": "Ammo",
+    "ranks": "1-4",
+    "description": ""
+  },
+  {
+    "name": "Non-Penetrating",
+    "ranks": "1+",
+    "description": "The Weapon has an inferior ability to penetrate \nexisting Armour and Force Fields (with Armour Ratings \nof at least 5 AR) to inflict damage. Examples include \nunarmed attacks, shotgun blasts, hollow-point bullets, \nunbated swords, caltrops, a storm of icicles, etc. The \nArmour Rating of Armour and Force Fields is increased \nby 10 against such Weapons each time Non-Penetrating \nis assigned. For example, two assignments of Non-\nPenetrating increase the target\u2019s chainmail Armour Rating \nby 20. This Limiter can only be assigned to Weapons \nthat are somehow reduced in effectiveness by a target\u2019s \nArmour Rating, and consequently cannot be assigned to \nthose with Enhancements such as Insidious and Quake."
+  },
+  {
+    "name": "Backblast",
+    "ranks": "1-2",
+    "description": ""
+  },
+  {
+    "name": "Stoppable",
+    "ranks": "1-4",
+    "description": "Stoppable is only assigned to Weapons that also \nhave the Range Enhancement. These Weapons fire \nprojectiles or energy bolts that are sufficiently massive \nand slow enough to be shot down since the attack does \nnot reach the target quickly. One assignment means \nthe attack takes one round to reach its destination;  \ntwo assignments means \nthe attack takes 5 rounds; three \nassignments means the attack \ntakes one minute; four assignments \nmeans the attack takes one hour. Thus, \na cannon shell, bullet, or lightning bolt \nwould usually not qualify since the \nprojectiles travel incredibly quickly over \na short distance, but a guided missile (fast, \nbut travels a long distance) or fireball (short \ndistance, but may travel slowly) might have \nStoppable.Attacking the Stoppable projectile requires a \nsuccessful attack with a major obstacle (page 182) on \nthe attack roll. Furthermore, the defending Weapon \nattack must deliver at least 10 damage to the Stoppable \nprojectile for each Level of the Stoppable Weapon or \nthe projectile is not intercepted. For example, an attack \nmust inflict at least 60 damage to a Level 6 Weapon \nwith the Stoppable Enhancement in order to block/\nintercept/destroy it."
+  },
+  {
+    "name": "Exclusive",
+    "ranks": "1-3",
+    "description": ""
+  },
+  {
+    "name": "Toxic",
+    "ranks": "1-2",
+    "description": "The Weapon is a gas, toxin, biological agent, sound, \nradiation, or other harmful effect that only damages \nliving things. One assignment means that targets who \nhave the appropriate Resilient Attribute are completely \nimmune to its effects. T wo assignments means that \na target who is expecting the attack can also render \nthemselves immune for at least one round (usually \nenough time to escape) if they had prepared for the \nattack by taking a simple precaution such as holding \none\u2019s breath or using a wet rag to resist a toxic gas."
+  },
+  {
+    "name": "Fieldless",
+    "ranks": "1",
+    "description": ""
+  },
+  {
+    "name": "Unique",
+    "ranks": "1+",
+    "description": "The attack has some other unspecified limitation, \nwhich is subject to GM approval. Examples could \ninclude a weapon that fires in a random direction, one \nthat is extremely costly to operate, an attack that drains \nHeath Points from the user, etc. The number of Unique \nLimiter assignments required is determined by the GM \nbased on the ineffectiveness of the Unique Weapon."
+  },
+  {
+    "name": "Hands",
+    "ranks": "1",
+    "description": ""
+  },
+  {
+    "name": "Unreliable",
+    "ranks": "1-3",
+    "description": "Any time an Unreliable Weapon is used \nand the attack roll results in an unmodified \n(or \u201cnatural\u201d) 2, the attack fails to take \nplace and the Weapon burns out, jams, \noverheats, or otherwise malfunctions. For \ntwo assignments, an unmodified roll of 2 or \n3 produces the same results and for \nthree assignments, unmodified rolls \nof 2, 3, or 4 also trigger the \nmalfunction. The Weapon \nwill not work again until \nsome condition is fulfilled \nas determined by the GM. \nFor example, repairing \na technological weapon \nmay require a skilled \nindividual to make a successful \naverage Mind Stat roll (Target \nNumber 12). Other remedies \nmight be appropriate for recovering different \nattacks, such as a supernatural monster \nwhose breath weapon has \u201cburned out\u201d \nmight have to eat a hearty meal first."
+  },
+  {
+    "name": "Inaccurate",
+    "ranks": "1-2",
+    "description": ""
+  }
+]

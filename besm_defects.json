@@ -1,0 +1,582 @@
+[
+  {
+    "name": "Identities",
+    "defect_type": "",
+    "description": "If a character maintains a dual identity, some of their \nDefects may not affect them in one of the identities. \nFor example, a masked vigilante may be wanted by the \npolice on murder charges (the Wanted Defect), but \ntheir alternate identity may be a respected member of \nthe Tokyo political assembly. In these instances, the \ncharacter will receive fewer Points back from the Defect.\nIf either the character\u2019s normal or secret identity (but \nnot both) suffers from a Defect, the value of the Defect \nis worth 1 Rank less. For example, if a character\u2019s secret \nidentity has the Magnet Defect at -3 Points, it is only \nworth -2 Points to the character though it functions at",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": ". In this way, single-identity Defects function in a similar way as Attribute Enhancements (page 145). If both identities suffer from the identical Defect, at the same or different Point values, use the one that returns the greatest number of Points. If a character only has one identity, the Defects return Points as normal.ACHILLES HEELACHILLES HEEL A Greater Defect. The character loses twice as many Health Points as normal from a particular attack form, which must fit with the character concept. It might be something with appropriate mystic resonance, such as wooden stakes for vampires or silver weapons for werewolves. It could also reflect the character\u2019s nature, such as a fire-based monster taking extra damage from water attacks, or an alien\u2019s weakness to weapons from their home planet."
+      },
+      {
+        "points": -2,
+        "text": "The attack form is rare"
+      },
+      {
+        "points": -4,
+        "text": "The attack form is uncommon"
+      },
+      {
+        "points": -6,
+        "text": "The attack form is common"
+      }
+    ]
+  },
+  {
+    "name": "Awkward Size",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. This Defect only applies to non-\nliving Items, since characters and creatures should \nacquire a Size Template instead (page 32). Awkward \nSize means the Item is notably larger and more massive \nthan an ordinary human. An Item with Awkward Size \nmay have trouble fitting through openings and moving \nthrough narrow alleys, and is much easier to notice. \nThe larger the Item, the more Points this Defect will be \nworth (-2 Points/Rank). Size usually refers to the Item\u2019s \nlongest dimension.\nAdditionally, larger Items make bigger targets in \nranged combat. For every Awkward Size category the \ntarget is larger than the attacker, the attacker gains a \n+2 bonus to hit with a ranged weapon. Conversely, for \nevery Awkward Size category the target is smaller than \nthe attacker, the attacker receives a -2 penalty with a \nranged weapon. For example, if a Huge Size 2 Item and \na Gigantic Size 4 Item are in ranged combat, the Size 2 \nItem gains a +4 bonus to hit while the Gigantic Size 4 \nItem gains a -4 penalty to hit.\nTable-15 shows the progression of mass and height. \nSelect a size and then assign an appropriate mass (usually \nwithin the range provide). Size 0 (the usual human-sized \nMedium standard) is shown for comparison purposes.",
+    "rank_effects": []
+  },
+  {
+    "name": "Bane",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. A character with the Bane Defect \nis vulnerable to an otherwise non-damaging substance \nsuch as water or sunlight, or a specific element, material, \nor object. The Bane should relate to the character\u2019s \nbackground or Attributes in some way. The character \nsuffers damage if their skin is physically touched by \nthe Bane. If the Bane does not require direct physical \ncontact (such as sunlight, seeing one\u2019s reflection, \nhearing the noise of a temple bell, or having the Bane \nin close proximity), the exposure damage is halved. \nAlternatively, if the Bane only affects the character when \nAssigning Defects can align the game mechanics \nof BESM to your vision for your character, as well \nas create excellent opportunities for engaging \nrole-playing beyond hack-and-slash combat. It's \nimportant to approach the portrayal of Defects \nwith maturity and sensitivity when touching \nupon many real-life physical and social issues \nthat have far-reaching implications and impacts \non others. Anime stereotypes can provide many \nlaughs around the gaming table, but being \nmindful of the emotions and sensitivities of \nothers should always take priority.\nRole-playing is about having fun with friends. No \none should ever feel marginalised, ridiculed, or \ntargetted because a character's portrayal fails to \nconsider how it may impact others.DEFECTS & SOCIAL \nAWARENESS\n07: DEFECTS\nPAGEPAGE\n156156Greg Doachi(e Odr2er 495087857)\n---PAGE 158---\nDEFECTS\nDEFECTS\ningested, the damage is doubled. Finally, the damage \ninflicted assumes that the Bane is common, such as \nwater, sunlight, steel, or wood. If it is less common, such \nas a holy symbol, Buddhist scripture, or rare element, \nthe damage is also doubled. If it is even more rare such \nas one particular artefact, the damage may be tripled or \nquadrupled as determined by the GM.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "The Bane causes the character minor damage: 10 damage per round of exposure"
+      },
+      {
+        "points": -4,
+        "text": "The Bane causes the character moderate damage: 20 damage per round of exposure"
+      },
+      {
+        "points": -6,
+        "text": "The Bane causes the character major damage: 30 damage per round of exposure"
+      }
+    ]
+  },
+  {
+    "name": "Blind Fury",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. Under specific conditions selected \nby the player (and approved by the GM), the character \nwill enter a state of unbridled anger. While enraged, \nthe character will furiously attack the closest person, \nwhether that individual is a friend or foe. Once that \nperson is defeated or flees, the berserk character will \nattack the next closest \u201cthreat.\u201d Examples of conditions \nthat might initiate Blind Fury include: receiving a certain \namount of damage, sight of blood, a specific sound or \nsmell, being outnumbered in combat, seeing a friend \nin danger, confrontation with a specific opponent, etc.\nThe character can only return to a normal emotional \nstate under another specific condition. This return \ncould involve a Soul Stat roll, or could be an automatic \nreversion over time. Examples of return conditions \ninclude: no targets in the vicinity, a specific calming \ntechnique performed by an ally, solitude, injection of a \nparticular drug, being knocked unconscious, etc.-2 Points Initiating the Blind Fury is difficult; \nreverting to a normal emotional state \nis easy",
+    "rank_effects": [
+      {
+        "points": -4,
+        "text": "Initiating the Blind Fury and reverting to a normal emotional state are both moderately difficult"
+      },
+      {
+        "points": -6,
+        "text": "Initiating the Blind Fury is easy; reverting to a normal emotional state is difficult"
+      }
+    ]
+  },
+  {
+    "name": "Conditional Ownership",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. This Defect can only be assigned \nto a Companion or Item, indicating that the person \nor object actually belongs to another individual or \norganisation instead of the creating character. The \nCompanions or Items may be issued to the character \nbut the organisation imposes mild, strict, or severe \nconditions on their use.\nMILD CONDITIONS\nThe character can use the objects or allies for some \npersonal business (such as travelling or recreational \nuse), but if they are released from the organisation or \ndisobey direct orders, the objects can be taken away. \nThe character can also be assigned different objects \nat any time at the discretion of the organisation. For \nexample, a police detective might have conditional use \nof an unmarked police car.\nSTRICT CONDITIONS\nThe character is only permitted to use the objects or \nallies for activities as ordered by the organisation. This \nis the way most military and police equipment is issued. \nIf the character is caught using the objects for personal \nactivities, they will receive a severe reprimand.\nAWKWARD SIZE\nRank Size Points Height Typical Mass Range\n0 Medium 0 1 - 2 metres 50 - 150 kg\n1 Large -2 3 - 4 metres 200 - 1,200 kg\n2 Huge -4 5 - 8 metres 1.5 - 8 tonnes\n3 Mammoth -6 9 - 15 metres 10 - 60 tonnes\n4 Gigantic -8 16 - 30 metres 75 - 500 tonnes\n5 Gargantuan -10 31 - 60 metres 550 - 4,000 tonnes\n6 Colossal -12 61 - 125 metres 4 k \u2013 30 k tonnes\n7 Enormous -14 126 - 250 metres 40 k \u2013 250 k tonnes\n8 Monstrous -16 251 - 500 metres 300 k \u2013 2 M tonnes\n9 Titanic -18 501 - 1,000 metres 2 M \u2013 15 M tonnes\n10 Monumental -20 1,000 \u2013 2,000 metres 15 M \u2013 125 M tonnes15\n07: DEFECTS\nPAGEPAGE\n157157Greg Doachi(e Odr2er 495087857)\n---PAGE 159---\nDEFECTS\nDEFECTS\nSEVERE CONDITIONS\nThe character can only use the objects or allies \nunder specific orders. A government-owned time travel \ndevice would probably fall under this category. Using \nthe objects at any other time results in incarceration, \nphysical punishment, or even death.\n-1 Point Mild conditions are imposed on the \nobject\u2019s ownership and usage",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Strict conditions are imposed on the object\u2019s ownership and usage"
+      },
+      {
+        "points": -3,
+        "text": "Severe conditions are imposed on the object\u2019s ownership and usage"
+      }
+    ]
+  },
+  {
+    "name": "Confined",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. This Defect prevents the \ncharacter from leaving a narrowly defined area. This \nmay represent an undead villain that is cursed to haunt \na particular place, an android that is programmed to \nfollow a specific guard route, or someone under house \narrest or forbidden to leave the country.",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "Confined to a large area (100 km radius), such as a single kingdom, country, or large city"
+      },
+      {
+        "points": -6,
+        "text": "Confined to a moderate area (1 km radius), such as a small town or large, multi-structure complex"
+      },
+      {
+        "points": -9,
+        "text": "Confined to a small area (100 m radius), such as a tiny village or single building"
+      }
+    ]
+  },
+  {
+    "name": "Cursed",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. A Cursed character has likely \noffended a great being of power in their past or is the \ndirect descendent of someone who did (since Curses \noften pass through bloodlines). A Curse may also be \nassigned to an entire race of beings that have fallout \nout of disfavour with a god. The Curse can take a near \nlimitless number of forms but should not provide a \ncharacter with an obvious advantage (remember, it\u2019s a \ncurse!). The exact nature, background, and limitations \nof the Curse should be discussed with the GM.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Curse imposes a slight disadvantage on the character"
+      },
+      {
+        "points": -4,
+        "text": "Curse imposes a moderate disadvantage on the character"
+      },
+      {
+        "points": -6,
+        "text": "Curse imposes a severe disadvantage on the character"
+      }
+    ]
+  },
+  {
+    "name": "Easily Distracted",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. Some characters are Easily \nDistracted by events, objects, people, or ideas, which \nare collectively known as triggers. Notable examples of \ntriggers include attractive members of the opposite or same sex, wealth, food, movie stars, hobbies, gossip, hot \ncars, music, one\u2019s own looks, books or scrolls of ancient \nlore, magical items, etc. A character with this Defect \nwill become enthralled with the trigger until it can no \nlonger influence them. Many characters have interests \nin a variety of triggers but do not possess this Defect \nbecause their interest is moderated by their sense of \njudgement and decorum.\n-1 Point Easily Distracted by a trigger that is \nencountered infrequently",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Easily Distracted by a trigger that is encountered frequently, or by a few infrequent triggers"
+      },
+      {
+        "points": -3,
+        "text": "Easily Distracted by a trigger that is encountered constantly, or by a several infrequent triggers"
+      }
+    ]
+  },
+  {
+    "name": "Fragile",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The character is less durable than \ntheir Body and Soul Stats would otherwise suggest. This \nDefect is appropriate for characters with a \u201cglass jaw\u201d or \nthose who succumb to physical trauma easily.\n-1 Point Health Points are decreased by 10",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Health Points are decreased by 20"
+      },
+      {
+        "points": -3,
+        "text": "Health Points are decreased by 30"
+      }
+    ]
+  },
+  {
+    "name": "Hounded",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. The character is recognisable by \nmany people, and thus it is difficult for them to keep \nsecrets or maintain a private life. In a modern setting, \njournalists and photographers follow the character\u2019s \nmovements regularly, and report their actions on \ntelevision, in newspapers, and on websites. Hounded is \na particularly significant disadvantage for someone who \nmaintains a secret identity.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "The constant attention the character receives is slightly inconvenient"
+      },
+      {
+        "points": -4,
+        "text": "The constant attention the character receives is moderately inconvenient"
+      },
+      {
+        "points": -6,
+        "text": "The constant attention the character receives is severely inconvenient"
+      }
+    ]
+  },
+  {
+    "name": "Impaired Manipulation",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. The ability to manipulate objects \nwith hands or other appendages is one of the major \nadvantages that humans have over other species. If a \ncharacter lacks these abilities, due to natural design or \nan unfortunate accident, they will be at a significant \ndisadvantage.",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "The character only has one usable arm. They cannot easily hold objects during unarmed combat or while using a hand-held Weapon. 07: DEFECTS PAGEPAGE 158158Greg Doachi(e Odr2er 495087857) ---PAGE 160--- Greg Doachi(e Odr2er 495087857) ---PAGE 161--- DEFECTS DEFECTS"
+      },
+      {
+        "points": -6,
+        "text": "The character has rudimentary manipulative ability using paws or talons, such as that possessed by a bear, octopus, dragon, or bird. The character can grapple and lift things but cannot perform tasks that require fine manipulation (such as use tools or hand-held Items, or fire a pistol)."
+      },
+      {
+        "points": -9,
+        "text": "The character has no usable arms. They cannot carry or grab objects, nor can they easily engage in physical combat. This rank includes animals with no manipulative ability, such as horses, fish, and snakes."
+      }
+    ]
+  },
+  {
+    "name": "Impaired Speech",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. The ability to communicate \nthrough language is a major advantage that humans \nhave over other animals. If a character lacks these \nabilities, due to natural design or serious injury, they \nwill be at a significant disadvantage. This ability does \nnot refer to comprehension of speech but the ability to \nproduce it. A hearing-impaired individual will instead \nhave the Sensory Impairment Defect (page 164).",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "The character either has a severe speech impediment or speaks clearly with their own species but on an unusual wavelength or mode that prevents easy communication with other races."
+      },
+      {
+        "points": -6,
+        "text": "The character can communicate with a range of sounds that carry emotional content but which are not a language, such as the sounds made by most normal animals"
+      },
+      {
+        "points": -9,
+        "text": "The character is completely mute with no way to verbally communicate"
+      }
+    ]
+  },
+  {
+    "name": "Inept Attack",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. This Defect reflects a character\u2019s \npoor judgement or talent in offensive combat situations, \nwhich makes it much more difficult to strike an \nopponent successfully. The character suffers a penalty \nto their Attack Combat Value. This penalty is doubled, \nthough, if it only applies in certain types of combat \nsituations (such as ranged attacks, melee attacks, or \nagainst a type of opponent). See page 169 for more \ninformation on the Attack Combat Value.\n-1 Point -1 Attack Combat Value for all attacks; \nor -2 Attack Combat Value in certain \nsituations only",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "-2 Attack Combat Value for all attacks; or -4 Attack Combat Value in certain situations only"
+      },
+      {
+        "points": -3,
+        "text": "-3 Attack Combat Value for all attacks; or -6 Attack Combat Value in certain situations onlyINEPT DEFENCEINEPT DEFENCE A Lesser Defect. This Defect reflects a character\u2019s poor judgement or talent in defensive combat situations, which can often place them in precarious positions. The character suffers a penalty to their Defence Combat Value. This penalty is doubled, though, if it only applies in certain types of combat situations (such as ranged attacks, melee attacks, or against a type of opponent). See page 169 for more information on the Defence Combat Value. -1 Point -1 Defence Combat Value for all defences; or -2 Defence Combat Value in certain situations only"
+      },
+      {
+        "points": -2,
+        "text": "-2 Defence Combat Value for all defences; or -4 Defence Combat Value in certain situations only"
+      },
+      {
+        "points": -3,
+        "text": "-3 Defence Combat Value for all defences; or -6 Defence Combat Value in certain situations only"
+      }
+    ]
+  },
+  {
+    "name": "Involuntary Change",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. This Defect is only available to  \ncharacters who have the Alternate Form (page 78) \nAlternate Identity (page 80), or Merge (page 103) \nAttributes; assign it to their base form. The character \nmay accidentally change from their base form to their \nother form (or vice versa) or an external trigger (such \nas an opponent, ally, natural force, etc.) may induce \nthe change. This Defect may represent a character who: \ntransforms between identities upon hearing or uttering \na specific word; reverts to normal when a particular \nchemical in the body is in low quantities (such as sugar \nor salt); transforms when a button on an Item pushed; \ntransforms in times of stress; transforms when a substance \n(such as water or sunlight) touches the character; etc.\n-1 Point Difficult to trigger the character\u2019s \nInvoluntary Change",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Moderately easy to trigger the character\u2019s Involuntary Change"
+      },
+      {
+        "points": -3,
+        "text": "Easy to trigger the character\u2019s Involuntary Change"
+      }
+    ]
+  },
+  {
+    "name": "Ism",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. Ism is discrimination based solely \non one particular aspect of a character. Examples of \nIsm include: ableism, ageism, classism, cisgenderism, \nethnocentrism, racism, or sexism, or discrimination \nbased on education, species, genetics, sexual preference, \noccupation, religion, physical features, etc. The players \nand GM are strongly encouraged to discuss any \ncontentious discrimination issues and their role in \nthe game before play begins to ensure no one will be \nuncomfortable role-playing a character subject to them.\n07: DEFECTS\nPAGEPAGE\n160160Greg Doachi(e Odr2er 495087857)\n---PAGE 162---\nDEFECTS\nDEFECTS",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Experiences slight discrimination"
+      },
+      {
+        "points": -4,
+        "text": "Experiences moderate discrimination"
+      },
+      {
+        "points": -6,
+        "text": "Experiences severe discrimination"
+      }
+    ]
+  },
+  {
+    "name": "Magnet",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The character attracts susceptible \ngirls or guys (or even both sexes) like bees to nectar. \nFor some reason, individuals are simply drawn to the \ncharacter, fall helplessly in love (or lust) with them, and \ncannot stop thinking of them. Even worse, they will fight \neach other over the character to keep one another from \nadvancing any relationship. This Defect should only \nbe assigned if the character would be bothered by such \nattention but lacks the will to take extreme measures \nto drive away the admirers. The Magnet Defect does \nnot represent some unusual charisma on the part of \nthe character but rather their fate to constantly meet \nobsessed people.\n-1 Point At any specific time, only a few \nadoring fans are actively chasing the \ncharacter",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "A handful of adoring fans are regularly chasing the character and new ones may appear infrequently"
+      },
+      {
+        "points": -3,
+        "text": "Swarms of adoring fans are regularly chasing the character and new ones typically appear frequently"
+      }
+    ]
+  },
+  {
+    "name": "Marked",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. A character is considered Marked if \ntheir body hosts a permanent and distinguishing design \nthat may be difficult to conceal. The design may be a \nfamily symbol, an identifying birthmark, a permanent \nscar, or a unique tattoo. If the mark is not considered \nout of the ordinary (such as freckles or an unremarkable \ntattoo), this Defect does not apply. Characters who are \nobviously non-human (alternate race, robotic, demonic, \nalien, etc.) in a setting where most people are human (or \nvice versa) would also have the Marked Defect.\nWhen considering assigning the Marked Defect, \nconsider what would seem out of the ordinary and \nthe focus of attention. Most animals, for example, \nwould not have Marked since it\u2019s normal for them to \nbe animals. A rare jade-green tiger would certainly \nqualify for Marked, though, since its colour is quite \nout of the ordinary. Similarly, a female monkey saving \nTokyo as a magical girl would also qualify, since heroism \nis not a normal calling for a monkey. In a traditional \nhigh-fantasy setting, most of the standard races (elves, \ndwarves, halflings, etc.) would also not have Marked \nsince these races are usually common enough to avoid \nattracting attention.-1 Point Mark is easily concealable because \nit is small or in an inconspicuous \nlocation",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Mark can be concealed with moderate difficulty because it is large or in an obvious location"
+      },
+      {
+        "points": -3,
+        "text": "Mark cannot be concealed in most circumstances because it affects the character\u2019s entire body (or the character\u2019s species is the mark itself)"
+      }
+    ]
+  },
+  {
+    "name": "Nemesis",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The character has someone in their \nlife that actively interferes with goal achievement on \na regular basis. This Nemesis can take several forms. \nThey could be a professional rival such as someone \ncompeting for the favour of the character\u2019s boss. The \nNemesis could also be personal, such as a criminal that \nis pursued by a specific law enforcement officer who \ndevotes their existence to putting the character behind \nbars. The Nemesis may even be a romantic rival, such \nas someone chasing the same person the character is \ncurrently pursuing.\nThe Nemesis should be someone who makes the \ncharacter\u2019s life difficult (and cannot easily be removed) \nbut the Nemesis does not need to be a mortal enemy. \nIt might be someone the character loves very much but \none whom they cannot avoid, such as an overbearing \nparent who lives at home with the character. If for \nany reason the Nemesis is defeated or goes away, the \nGM should create another Nemesis unless the player \nalso wishes to use Advancement Points (page 303) to \neliminate the Defect permanently.\n-1 Point The Nemesis is merely annoying or \ninterferes infrequently",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "The Nemesis occasionally tries to harm the character or interferes frequently"
+      },
+      {
+        "points": -3,
+        "text": "The Nemesis always tries to harm the character or interferes constantly"
+      }
+    ]
+  },
+  {
+    "name": "Nightmares",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. When the Nightmare Defect haunts \na character, they have trouble sleeping at night and \nfunctions at less-than-optimum performance during the \nday. The nightmare can be a memory of a tragic event or \ntraumatic experience or it might be something else such \nas a prophetic vision or warning. The nightmare may \nnot occur every night but it will haunt the character \nregularly. Additionally, the nightmares do not need to \nportray the exact same events repeatedly but the visions \nshould be related in some way. The details concerning \nthe subject matter of the nightmares and why they occur \nis the responsibility of the GM and the player to create.\n07: DEFECTS\nPAGEPAGE\n161161Greg Doachi(e Odr2er 495087857)\n---PAGE 163---\nGreg Doachi(e Odr2er 495087857)\n---PAGE 164---\nDEFECTS\nDEFECTS\n-1 Point Nightmares occur infrequently and \nhave a slight effect on the character\u2019s \ndaily life",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Nightmares occur frequently and have a moderate effect on the character\u2019s daily life"
+      },
+      {
+        "points": -3,
+        "text": "Nightmares occur constantly and have a severe effect on the character\u2019s daily life"
+      }
+    ]
+  },
+  {
+    "name": "Obligated",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. Free will has little meaning \nfor a character who is Obligated to a corporation, \ngovernment, crime ring, or other organisation or \nindividual. Control over the character can be exerted \nthrough a variety of methods including blackmail, \nbrainwashing, legal contract, technology, or just highly \neffective propaganda. Dire consequences await a \ncharacter whose actions conflict with the mandate of \nthe organisation. Obligated should not normally be \nassigned to Companions directly and is only applicable \nto Items if that Item itself impedes the freedom of the \ncharacter who possesses it.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Small obligation to the organisation and subject to slight punishment for opposing it"
+      },
+      {
+        "points": -4,
+        "text": "Moderate obligation to the organisation and subject to moderate punishment for opposing it"
+      },
+      {
+        "points": -6,
+        "text": "Large obligation to the organisation and subject to severe punishment for opposing it"
+      }
+    ]
+  },
+  {
+    "name": "Phobia",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. A Phobia is a fear (often irrational) \nof an event, object, or person that can limit a character\u2019s \nchoice of actions. Avoiding situations that could trigger \nthe phobia may take a high priority in the character\u2019s \nlife. Note that a Phobia that effectively cripples the \ncharacter with fear does not add constructively to the \nrole-playing experience.\n-1 Point Slight Phobia or one that is \nencountered infrequently",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Moderate Phobia or one that is encountered frequently"
+      },
+      {
+        "points": -3,
+        "text": "Severe Phobia or one that is encountered constantly"
+      }
+    ]
+  },
+  {
+    "name": "Physical Impairment",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. The character has a physical \nimpairment that makes aspects of daily life more \nchallenging. Possible impairments include: one or \nmore missing (or unusable) legs, amnesia, constant \nsickness, nagging injury, severe headaches, an android that requires frequent repairs, etc. The player and GM \nshould discuss the problems and limitations associated \nwith the impairment. See also the more specific Impaired \nManipulation (page 158), Impaired Speech (page 160), \nand Sensory Impairment (page 164) Defects.",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "Physical Impairment is a slight inconvenience to the character"
+      },
+      {
+        "points": -6,
+        "text": "Physical Impairment is a moderate inconvenience to the character"
+      },
+      {
+        "points": -9,
+        "text": "Physical Impairment is a severe inconvenience to the character"
+      }
+    ]
+  },
+  {
+    "name": "Red Tape",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The character must negotiate \ntheir way through a complicated bureaucracy in order \nto accomplish tasks. This Defect is often associated \nwith characters who are members of law enforcement \norganisations or similar government agencies that require \npaperwork. A large criminal organisation, however, \nmay also require a character to receive permission from \nseveral levels of bosses before undertaking certain high-\nprofile jobs.\nRed Tape also includes whatever measures the \ncharacter must take \u201cafter the fact\u201d to appease the \norganisation to which they belong. For example, a cop \nmay need to fill out a report every time their weapon is \nfired or may have to follow a complicated series of steps \nto obtain a search warrant. A thug (or a medieval noble) \nmay be required to pay a percentage of their take to the \nregional boss or face some very strict penalties. \nThe Red Tape Defect is usually inappropriate for \nallies created with the Companion Attribute.\n-1 Point Red Tape impedes the character \nbefore or after a major action (but not \nboth) and is generally easy to manage",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Red Tape impedes the character before and after a major action and it is moderately difficult to manage"
+      },
+      {
+        "points": -3,
+        "text": "Red Tape impedes the character before, after, and during a major action and it is difficult to manage"
+      }
+    ]
+  },
+  {
+    "name": "Reduced Damage",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. The character inflicts reduced \ndamage in combat, possibly due to feebleness, lack of \ncombat experience, youth, etc. For more information \non combat and damage, see page 183.",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "Damage Multiplier is reduced by 1"
+      },
+      {
+        "points": -6,
+        "text": "Damage Multiplier is reduced by 2"
+      },
+      {
+        "points": -9,
+        "text": "Damage Multiplier is reduced by 3 07: DEFECTS PAGEPAGE 163163Greg Doachi(e Odr2er 495087857) ---PAGE 165--- DEFECTS DEFECTS"
+      }
+    ]
+  },
+  {
+    "name": "Sensory Impairment",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. One or more of the character\u2019s \nsenses (sight, hearing, taste, touch, smell) are either \ndiminished or lost. An example of a diminished sense \nis being near-sighted or hard of hearing; the GM \nshould take the impairment into consideration when \ndeciding what the character is able to perceive. An \nexample of a lost sense is blindness or deafness. Any \ndiminishment or loss is based on the character\u2019s status \nafter benefiting from any technological aids such as \neyeglasses or hearing aids in the setting. For example, if \na character has a hearing aid but is still hard of hearing, \nthey have Sensory Impairment at -3 Points. In a \nsetting where a hearing aid was unavailable or \ncould not correct their particular impairment, \nthe character would have Sensory Impairment at",
+    "rank_effects": [
+      {
+        "points": -6,
+        "text": "instead. Stat rolls that relate to a character\u2019s Sensory Impairment receive a minor obstacle (secondary sense) or major obstacle (primary sense) on the roll."
+      },
+      {
+        "points": -3,
+        "text": "Diminished primary sense (such as short-sightedness or being hard of hearing) or a lost secondary sense (such as taste or smell)"
+      },
+      {
+        "points": -6,
+        "text": "Lost primary sense (sight or hearing) or multiple lost secondary senses"
+      },
+      {
+        "points": -9,
+        "text": "Lost primary sense (sight or hearing) and multiple lost secondary senses"
+      }
+    ]
+  },
+  {
+    "name": "Shortcoming",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The three game \nStats indicate the same level of ability \nor competency in all aspects of each \nStat: the Body Stat represents all \nphysical aspects, the Mind Stat \nrepresents all mental aspects, \nand the Soul Stat represents all \nspiritual and willpower aspects. \nSome characters may have one \nor more aspects of a Stat at a less \nproficient level than the rest of the \nStat aspects, however, and this is when \nyou can assign the Shortcoming Defect \nto provide more precision.For example, a bulky brawler might have a high \nstrength, excellence endurance, fast running speed, \ngood manual dexterity, and healthy immune system ... \nbut be rather clumsy. This would fit a character with a \nBody Stat of 8, with the Shortcoming (Agility) Defect \nat -3 Points. Similarly, a witty, perceptive, and insightful \nacademic genius that happens to have a surprisingly \nbad memory might have a Mind Stat of 9, with the \nShortcoming (Memory) Defect at -2 Points.\nEvery Stat has several aspects associated with it that \nare considered either Major Aspects (highly important \naspects that arise frequently in a game) or Minor \nAspects (less important aspects that arise infrequently). \nEach Stat usually has the three Major and three \nMinor Aspects listed below but players may \ncreate additional or alternative Aspects with \nthe Game Master\u2019s input.\n07: DEFECTS\nPAGEPAGE\n164164\nGreg Doachi(e Odr2er 495087857)\n---PAGE 166---\nDEFECTS\nDEFECTS\nBODY STAT\nMajor Aspects \u2013 Agility, Endurance, Strength\nMinor Aspects \u2013 Immune System, Manual \nDexterity, Running Speed\nMIND STAT\nMajor Aspects \u2013 Creativity, Perception, Reason\nMinor Aspects \u2013 Common Sense, Intuition, \nMemory\nSOUL STAT\nMajor Aspects \u2013 Charisma, Luck, Willpower\nMinor Aspects \u2013 Composure, Empathy, \nSelf-Discipline \nNEW ASPECTS\nThese Aspects and their classification as Major or \nMinor are examples only. The GM can redefine or \nrename these Aspects, or create others that better reflect \nparticular character concepts or the nature of a setting, \nor what elements of achievement the GM wishes to \nemphasise. A few examples of alternate Aspects, which \ncould be Major or Minor depending on their emphasis \nand exact definition, may include: Co-ordination, \nLooks, Fitness, Lower-Body Strength, Muscle, Upper-\nBody Strength (for Body); Focus, Intellect, Judgement, \nMechanical Aptitude; Savvy, Wit, Wisdom (for Mind); \nArtistic Ability, Courage, Charm, Gravitas, Leadership, \nInspiration, Piety, Presence, Sanity (for Soul).\nALL STAT ASPECTS\nSometimes a character needs the Shortcoming Defect \nto apply to all aspects of a specific Stat. This usually \napplies to characters that undergo a radical change from \none form to another, such as that induced by the Alternate \nForm Attribute (page 78). For example, a scientist \ncharacter with a Mind Stat of 11 who transforms into a \nhulking beast may need to reduce their Mind Stat to 3 \nwith a Shortcoming Mind Defect. For this application \nonly, a -1 penalty is applied to all the character\u2019s specific \nStat and Skill rolls for every -2 Points of the Shortcoming \nDefect assigned (ie. what could be considered negative \nLevels of the Augmented Attribute). All Derived Values \nmust be recalculated for this application of Shortcoming.\n-1 Point For a Shortcoming Major Aspect, the \ncharacter suffers a -1 dice roll penalty \nto Stat and Skill rolls with a minor \nobstacle. For Minor Aspects, this \nincreases to a -2 dice roll penalty with \na major obstacle.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "For a Shortcoming Major Aspect, the character suffers a -2 dice roll penalty to Stat and Skill rolls with a minor obstacle. For Minor Aspects, this increases to a -4 dice roll penalty with a major obstacle.-3 Points For a Shortcoming Major Aspect, the character suffers a -3 dice roll penalty to Stat and Skill rolls with a minor obstacle. For Minor Aspects, this increases to a -6 dice roll penalty with a major obstacle."
+      }
+    ]
+  },
+  {
+    "name": "Significant Other",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. A character with this Defect has \nsomeone for whom they will go to any lengths to keep \nsafe from harm \u2013 even at the risk of their own life. \nThe S.O. should be a regular fixture in the campaign. \nA one-night stand or a cousin visiting for two weeks \nis a plot complication and not an appropriate S.O. \nThe character\u2019s sense of obligation towards the S.O. is \nenough that the character will take great pains to ensure \ntheir safety and well-being. Examples include spouses \nand steady romantic partners, teammates, immediate \nrelatives (parents and grandparents, brothers and sisters, \nperhaps very close cousins), and close co-workers (such \nas a cop\u2019s partner). It is acceptable for a character to \ntake another character as an S.O. provided the players \nrole-play this relationship appropriately. In this case, \nthe S.O. relationship is always worth just -1 Point but \nis treated as a -3 Points Defect by the GM in terms \nof the frequency with which it affects the game. The \nS.O. Defect is inappropriate for most Companions and \nalmost all Items.\n-1 Point Significant Other is rarely placed \nin great danger and appears \ninfrequently",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Significant Other is often placed in great danger and appears frequently"
+      },
+      {
+        "points": -3,
+        "text": "Significant Other is regularly placed in great danger and appears constantly"
+      }
+    ]
+  },
+  {
+    "name": "Skeleton In The Closet",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. The character has a dark secret. \nExposure of this secret could cause harm to the character \nin the form of public humiliation, loss of a job, arrest, \ninjury, or even death. The Point Rank of this Defect is \nbased on the severity of the consequences if the secret \nis revealed. The secret must be important enough that \nthe character will actively take steps to keep others \nfrom learning of it. If the Skeleton is ever revealed, the \ncharacter will suffer the associated consequences and the \nGM should replace it with appropriate Defects worth at \nleast as many Points as Skeleton in the Closet.\nFor example, most criminals have a -2 Point Skeleton \nin the Closet \u2013 they have committed crimes that could \nsend them to jail or worse but usually there is no easily \navailable evidence. If their secret is discovered, they will \nusually have Skeleton in the Closet replaced by an equal \nor higher value of the Wanted Defect (page 167). A -6 \nPoint Skeleton is usually reserved for characters who \n07: DEFECTS\nPAGEPAGE\n165165Greg Doachi(e Odr2er 495087857)\n---PAGE 167---\nDEFECTS\nDEFECTS\nface destruction or death if their secret is discovered, \nsuch as a flesh-eating alien living among humans or an \nundercover special agent that has infiltrated a terrorist \norganisation.\nThe Skeleton in the Closet Defect also applies to \nsomeone who has a secret identity that they wish to \nconceal. The value depends on the consequences if \nthe secret is revealed and thus is heavily dependent on \nthe nature and actions of the character. For example, \nif an undercover agent\u2019s identity is revealed, enemies \ncan target the character and their family more easily. \nWhether this is a -2, -4, or -6 Rank Defect depends on \nthe position of the character, popularity of the character, \nhow many enemies they have, how easily the character \ncan maintain a normal lifestyle, etc. When in doubt, \nassume that most characters who have secret identities \ngain the -4 Points Defect.\nSkeleton in the Closet is only appropriate for \nCompanions if their allied character is aware of the \nsecret and must strive to protect it, since its exposure \nwould be harmful to the character as well through \n\u201cguilt by association\u201d and the loss of an important ally \nor friend.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Skeleton is difficult to discover and/ or the consequences of discovery are slight and/or the character\u2019s reputation will be impacted slightly"
+      },
+      {
+        "points": -4,
+        "text": "Skeleton is moderately easy to discover and/or the consequences of discovery are moderate and/or the character\u2019s reputation will be impacted moderately"
+      },
+      {
+        "points": -6,
+        "text": "Skeleton is easy to discover and/ or the consequences of discovery are severe and/or the character\u2019s reputation will be impacted severely"
+      }
+    ]
+  },
+  {
+    "name": "Social Fault",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. The character exhibits a Social \nFault that produces hardship for either the character or \ntheir companions and allies (or both). Social Faults are \nprimarily role-playing opportunities rather than strict \nmechanistic rules that provides a framework for character \naction based on a background story or plot hook \u2013 \nbut they are not intended to cripple your character\u2019s \nparticipation. When a Stat or Skill roll is required in \ncircumstances that touch upon the Social Fault, the \nGM can impose a major or minor obstacle (page 182) \nto the roll, raise the Target Number, or impose other \npenalties. For most characters, assigning more than two \nor three Social Faults is not recommended.\nA non-exhaustive list of Social Faults include: \nabusive, aimless, antisocial, anxious, arrogant, bigoted, \nborderline, boring, cowardly, demanding, depressed, \nenvious, greedy, histrionic, honour code, impulsive, inflexible, loquacious, narcissistic, nihilistic, obnoxious, \nobsessive, overconfident, overly sensitive, pacifistic, \npassive-aggressive, perfectionist, puritanical, sadistic, shy.\n-1 Point Imposes a slight disadvantage on the \ncharacter and/or their allies",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Imposes a moderate disadvantage on the character and/or their allies"
+      },
+      {
+        "points": -3,
+        "text": "Imposes a severe disadvantage on the character and/or their allies"
+      }
+    ]
+  },
+  {
+    "name": "Special Requirement",
+    "defect_type": "A Serious Defect",
+    "description": "A Serious Defect. This Defect means the character \nhas a Special Requirement that must be fulfilled in \norder for them to continue to function normally. This \nmight include: a mechanical device that needs constant \nmaintenance for proper functioning, a cyborg\u2019s need \nfor batteries, a vampire\u2019s thirst for blood, a chronically \nill patient\u2019s requirement for medicine, a god\u2019s need for \nworship, a fairy\u2019s need for belief in its existence, an \naddict\u2019s need for a fix, or a baby\u2019s need for constant \nattention. The Special Requirement may involve a \nphysical object, an event, an action, an environmental \ncondition, or even a state of mind. Everyday activities, \nsuch as eating and sleeping, are not considered to be \nSpecial Requirements unless they must be carried out \nunder unusual conditions or more frequently for some \nreason. For example, if a robot requires regular changes \nof batteries instead of (rather than as well as) food, \nthis is not a Special Requirement unless these batteries \nare rarer or more costly than ordinary food would be. \nThis Defect covers a wide range of possibilities and the \ndetails should be discussed with the GM.",
+    "rank_effects": [
+      {
+        "points": -3,
+        "text": "Easy to obtain and/or is needed infrequently"
+      },
+      {
+        "points": -6,
+        "text": "Moderately difficult to obtain and/or is needed frequently"
+      },
+      {
+        "points": -9,
+        "text": "Difficult to obtain and/or is needed constantly"
+      }
+    ]
+  },
+  {
+    "name": "Unappealing",
+    "defect_type": "A Lesser Defect",
+    "description": "A Lesser Defect. An Unappealing character may find \nit difficult to blend into a crowd because their appearance \nis distinctive. Alternatively, the term \u201cunappealing\u201d \nmay not necessarily mean ugly, but can also refer to \na bad smell, manner of speech, or even an unpleasant \nhabit that provokes a consistently negative reaction. A \nmonstrous, ugly creature is usually both Unappealing \nand Marked (page 161), while conversely a beautiful \nwinged angel would be Marked (the presence of wings) \nbut not Unappealing.\n-1 Point Slightly Unappealing",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "Moderately Unappealing"
+      },
+      {
+        "points": -3,
+        "text": "Severely Unappealing 07: DEFECTS PAGEPAGE 166166Greg Doachi(e Odr2er 495087857) ---PAGE 168--- DEFECTS DEFECTS"
+      }
+    ]
+  },
+  {
+    "name": "Unique Defect",
+    "defect_type": "",
+    "description": "This section covers any and all possible Defects that \na character might possess but are not detailed in the \nrules. The boundaries and limitations of the Defect \nshould be discussed with the GM.\n-1 to -3 Point Unique Defect occurs infrequently \nand/or has a slight effect on the \ncharacter\n-2 to -6 Points Unique Defect occurs frequently \nand/or has a moderate effect on the \ncharacter\n-3 to -9 Points Unique Defect occurs constantly and/\nor has a severe effect on the character",
+    "rank_effects": []
+  },
+  {
+    "name": "Vulnerability",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. The character has a critical \nweakness to a specific object, environment, thought, \nactivity, or condition. When in close proximity to the \nVulnerability, it can temporarily strip the character of \ntheir Attributes that are derived from one particular \nsource (such as magic or technology or supernatural \nability; see page 258). The Vulnerability should only \naffect the character rarely, however, since it impacts \nthem so severely. This Defect is mostly applicable to \nnon-humans or superhumans.",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "The character\u2019s source-related Attribute Levels all drop by one- quarter (round up) when affected by the Vulnerability"
+      },
+      {
+        "points": -4,
+        "text": "The character\u2019s source-related Attribute Levels all drop by one-half (round up) when affected by the Vulnerability"
+      },
+      {
+        "points": -6,
+        "text": "The character cannot use any source- related Attribute when affected by the Vulnerability"
+      }
+    ]
+  },
+  {
+    "name": "Wanted",
+    "defect_type": "A Greater Defect",
+    "description": "A Greater Defect. The character is Wanted by \nthe law, a powerful criminal, or private organisation \nthat has placed a price on their head. Being Wanted \nis different from having a Nemesis since there is no \nsingle person devoting their life to annoying or hunting \ndown the character but the character needs to conceal \ntheir identity or move around regularly to avoid having \nstrangers calling the police or pursuing the character \n(depending on the circumstances).",
+    "rank_effects": [
+      {
+        "points": -2,
+        "text": "The reward, contract, or other incentive offered is slight"
+      },
+      {
+        "points": -4,
+        "text": "The reward, contract, or other incentive offered is moderate"
+      },
+      {
+        "points": -6,
+        "text": "The reward, contract, or other incentive offered is extremeWEAK POINTWEAK POINT A Greater Defect. Weak Point is usually applied to non-humans or vehicle Items but can represent a character\u2019s old injury or wound that an opponent can exploit. The Item possesses an abnormal weak point that, if targetted and hit during combat (suffering penalties to the roll, at the GM\u2019s discretion), it inflicts double damage. If the GM deems the attack has been wildly successful, the target is instead immediately reduced to 0 Health Points and falls unconscious or is destroyed (again, at the GM\u2019s option). The opponent, or even the character, may not be aware the Weak Point exists, however, until its presence is discovered by accident or through careful study."
+      },
+      {
+        "points": -2,
+        "text": "Weak Point is tiny and difficult to hit"
+      },
+      {
+        "points": -4,
+        "text": "Weak Point is small and moderately easy to hit"
+      },
+      {
+        "points": -6,
+        "text": "Weak Point is large and easy to hit 07: DEFECTS PAGEPAGE 167167 Greg Doachi(e Odr2er 495087857) ---PAGE 169--- CHAPTER 8CHAPTER 8 DERIVED VALUESDERIVED VALUESGreg Doachi(e Odr2er 495087857) ---PAGE 170--- DERIVED VALUES DERIVED VALUES CALCULATE DERIVED VALUESCALCULATE DERIVED VALUES The end of your character creation journey is nearly here and soon you\u2019ll be ready to play!The end of your character creation journey is nearly here and soon you\u2019ll be ready to play! Once you have allocated all the Character Points by acquiring Stats, Attributes (including Skill Groups), and Defects Once you have allocated all the Character Points by acquiring Stats, Attributes (including Skill Groups), and Defects \u2013 plus any associated Enhancements and Limiters \u2013 it\u2019s time to calculate your character\u2019s Derived Values. These derived \u2013 plus any associated Enhancements and Limiters \u2013 it\u2019s time to calculate your character\u2019s Derived Values. These derived numbers are based directly on your character\u2019s Body, Mind, and Soul Stats (modified by Attributes and Defects) and numbers are based directly on your character\u2019s Body, Mind, and Soul Stats (modified by Attributes and Defects) and thus do not afford any choices of Character Point distribution. If your Derived Values don\u2019t reflect the vision for your thus do not afford any choices of Character Point distribution. If your Derived Values don\u2019t reflect the vision for your character accurately \u2013 such as a berserker barbarian character that has a too-low Attack Combat Value and too-high character accurately \u2013 such as a berserker barbarian character that has a too-low Attack Combat Value and too-high Defence Combat Value \u2013 you can always return to the Stats, Attributes, and Defects chapters to refine your assignments Defence Combat Value \u2013 you can always return to the Stats, Attributes, and Defects chapters to refine your assignments to better match your expectations.to better match your expectations. COMBAT VALUECOMBAT VALUE Combat Value governs all facets of physical conflict, including your character\u2019s abilities in attacking, defending, and delivering damage. A higher Combat Value reflects fighting spirit and an increased knowledge of all physical combat forms: armed, unarmed, martial arts, and ranged weapons. There are two separate components of the Combat Value \u2013 Attack Combat Value (ACV) and Defence Combat Value (DCV). Attributes and Defects may modify either component separately. Prowess in combat can only be achieved through harmony of the Complete Self. Lack of self-unity through weakness of any facet of the character will restrict their ability in combat. Consequently, the Body, Mind, and Soul Stats are all of equal importance to the combat master: Body Stat for a forceful attack and defence; Mind Stat for quick wit, knowledge of combat techniques and anticipation of an opponent\u2019s actions; and Soul Stat for the winning spirit and good fortune. For example, a petite character with martial arts training can take down an opponent nearly twice their size since knowledge and determination is just as important as brute force. Your character\u2019s base Combat Value is calculated by adding together all the Stat Values and dividing by three, rounding down. The Attack Combat Value is equal to the base Combat Value, +1 per Level of the character\u2019s Attack Mastery Attribute (page 80). ACV may be increased in specific circumstances as determined by the Enemy Attack (page 90), Melee Attack (page 102), and Ranged Attack (page 116) Attributes. The Defence Combat Value is equal to the base Combat Value, +1 per Level of the character\u2019s Defence Mastery Attribute (page 88). DCV may be increased in specific circumstances as determined by the Enemy Defence (page 90), Melee Defence (page 103), and Ranged Defence (page 116) Attributes. 08: DERIVED VALUES PAGEPAGE 169169 COMBAT      BODY    MIND    SOULCOMBAT      BODY    MIND    SOUL VALUE          STATVALUE          STAT STAT   STAT  STAT   STAT           = = ((      +    ++    +      ))\u00f7\u00f733Greg Doachi(e Odr2er 495087857) ---PAGE 171--- DERIVED VALUES DERIVED VALUES HEALTH POINTSHEALTH POINTS Health Points measure the amount of physical damage your character\u2019s body can sustain before it ceases to function (i.e. your character is knocked unconscious or even dies). Damage delivered in combat is subtracted from your character\u2019s current Health Point total. If the total ever falls below zero, the character is rendered unconscious and may die if they do not receive medical attention. Your character\u2019s base number of Health Points is equal to the sum of the Body Stat and Soul Stat multiplied by 5 ([Body + Soul) x 5]). Increase Health Points by +10 for every Level of the character\u2019s Tough Attribute (page 128). Reduce Health Points by -10 for every -1 Rank of the Fragile Defect (page 158).ENERGY POINTSENERGY POINTS Characters possess a personal reserve of energy that may be burned when carrying out difficult tasks. Energy Points are needed to fuel Attributes that are associated with the Deplete Limiter (page 149). If your character\u2019s Energy Point total is ever reduced to 0, they will fall unconscious from exhaustion. Energy Points are also used to represent deprivation such as hunger, thirst, fatigue, lack of sleep, and even intense emotion such as crippling fear or stress. In some instances (such as hunger and thirst), if a character\u2019s Energy Points are at 0 and continue to decline, they will begin to lose Health Points instead. In extreme moments, player characters can use Energy Points to temporarily provide a bonus to a dice roll. The character may spend these Points after rolling the dice, applying a +1 dice roll bonus for every 10 Energy Points the character burns. A character may add a maximum bonus to a single roll equal to their Soul Stat. See Dramatic Feats (page 195) for more information on modifying dice rolls with Energy Points. 08: DERIVED VALUES PAGEPAGE 170170 HEALTH         BODY   SOUL HEALTH         BODY   SOUL POINTS         STAT     STATPOINTS         STAT     STAT          = = (    +     )(    +     ) X5X5Greg Doachi(e Odr2er 495087857) ---PAGE 172--- DERIVED VALUES DERIVED VALUES Players and the GM are cautioned that the over-use of Energy Points can slow the pace of a game and greatly increase the amount of bookkeeping. Additionally, your character may tire quickly if you assign the Deplete Limiter to several Attributes, which prevents your character from using them over sustained periods. Whether this is appropriate for your character or not depends on how you envision your hero. Your character\u2019s base number of Energy Point is equal to the sum of the Mind Stat and Soul Stat multiplied by 5 ([Mind + Soul] x 5). Increase Energy Points by +10 for every Level of the character\u2019s Energised Attribute (page 91).DAMAGE MULTIPLIERDAMAGE MULTIPLIER A character\u2019s base Damage Multiplier is 5. It is increased by +1 per Level of the character\u2019s Massive Damage Attribute (page 102). Also, when muscle-power Weapon attacks are involved \u2013 such as for normal melee and thrown Weapons or Weapons with the Muscle Enhancement (page 138) \u2013 the Superstrength Attribute (page 124) increases the character\u2019s Damage Multiplier by +1 for each Attribute Level as well. For more information on physical combat and damage, see page 193. FINISHING UPFINISHING UP Once you have calculated your character\u2019s Derived Values, you should show your creation to the GM since they may have a few suggestions for fine-tuning your character to better fit the game storyline. Otherwise, your have finished the creative process and your character is ready for play! 08: DERIVED VALUES PAGEPAGE 171171 ENERGY         MIND   SOUL ENERGY         MIND   SOUL POINTS         STAT     STATPOINTS         STAT     STAT          = = (    +     )(    +     ) X5X5Greg Doachi(e Odr2er 495087857) ---PAGE 173--- CHAPTER 9CHAPTER 9 ACTIONACTIONGreg Doachi(e Odr2er 495087857) ---PAGE 174--- ACTION ACTION TAKING ACTIONTAKING ACTION In a role-playing game like BESM, most character or NPC actions do not require any particular rules. A player simply In a role-playing game like BESM, most character or NPC actions do not require any particular rules. A player simply states that their character walks across a room, picks up an object, drives a vehicle, talks to someone, etc., and if the GM states that their character walks across a room, picks up an object, drives a vehicle, talks to someone, etc., and if the GM agrees that the action is possible and can be performed without much difficulty, this simply happens. Personal interaction agrees that the action is possible and can be performed without much difficulty, this simply happens. Personal interaction between characters or NPCs is at the heart of role-playing games and this is what sets them apart from other tabletop between characters or NPCs is at the heart of role-playing games and this is what sets them apart from other tabletop games such as board, miniature, and party games. The players and GM will spend most of their role-playing time talking games such as board, miniature, and party games. The players and GM will spend most of their role-playing time talking \u201cin character\u201d and describing what their alter egos are doing from scene to scene. In addition to speaking with the voice \u201cin character\u201d and describing what their alter egos are doing from scene to scene. In addition to speaking with the voice of all the background and supporting characters they control, the Game Master also describes what the player characters of all the background and supporting characters they control, the Game Master also describes what the player characters are seeing, hearing, smelling, touching, and tasting to provide context and understanding for the characters\u2019 actions.are seeing, hearing, smelling, touching, and tasting to provide context and understanding for the characters\u2019 actions. Throughout the course of a game, circumstances may arise where specific rules can help determine what happens. This is usually the case when the outcome of an action or event is uncertain and the result is important to the story. If a character needs to fix a broken reactor pump to prevent a nuclear meltdown, can they do it in time? If a character\u2019s car drives off a cliff, can they jump clear in time, and if not, how badly will the crash injure the character? If two people fight, who wins? A character\u2019s Stats, Attributes, Skill Groups, and Derived Values help resolve these dramatic questions. In many cases, dice rolls can add additional hazard and drama to the action. The dice rolls represent elements beyond the direct control of the character or the uncertainty that results when opposing characters interact. In some situations, the GM may elect to determine the results without rolling dice (see Should You Roll The Dice?, page 180). The GM may do so if they think a particular outcome is certain (whether a success or a failure) or a particular outcome is dramatically necessary to the game. One situation the rules cover in greater detail is combat. The game mechanics for physical conflict are explicit to give players greater control over their characters\u2019 actions when engaged in a mortal struggle. If they lose, they will know the GM has not arbitrarily injured or killed their characters. The GM can also follow a similar procedure with any other actions that affect a character\u2019s fate: treat routine activities in passing and delve into more detail whenever an action impacts the characters physically or emotionally. DESCRIBING ACTIONSDESCRIBING ACTIONS Characters can perform or attempt a nearly endless list of actions. These can be mundane activities (talking, breathing, thinking, etc.), skilled activities (building a suit of power armour, hacking into a computer, moving silently, climbing the side of a building, etc.), or combat activities (fighting, dodging, shooting, etc.).Every GM has a preferred method for having players describe their characters\u2019 actions. Usually this involves the GM moving from player to player and asking, \u201cWhat is your character doing?\u201d Experienced GMs try to give each person equal role-playing time so that everyone is an important facet of the story (switching between characters as necessary). Players are responsible for relating their characters\u2019 intended actions to the GM, who describes the results of those actions or requests a Stat or Skill roll to determine the outcome. Consider the three action descriptions below: \u00bb\u201cMy character, Akira, is going to search for the missing sword.\u201d \u00bb\u201cMy character, Akira, is going to search for the missing sword in the basement of the building.\u201d \u00bb\u201cMy character, Akira, is going to quickly search for the missing sword in the basement of the building. He will knock down doors if necessary in order to find it as quickly as possible.\u201d All three accounts involve Akira looking for a lost sword but the level of detail is quite different. You should not be overly concerned with detail if it is irrelevant to your character\u2019s actions (such as exactly how Akira is forcing open the doors in the final description), but sometimes a little detail can greatly alter the GM\u2019s interpretation of the event. There is an expansion book in our anime and manga RPG adventure line called BESM Extras that is dedicated to rules variations, extended game system mechanics, expanded optional notes and guidelines, and plenty of ready-to- use examples. See our website for detailed release information: dyskami.ca or BESM4.life. 09: ACTION PAGEPAGE 173173 RULE EXPANSIONS AND CHARACTER OPTIONS Greg Doachi(e Odr2er 495087857) ---PAGE 175--- ACTION ACTION 09: ACTION PAGEPAGE 174174Movement Speed (kph)Movement Speed (kph) WALK 1x Body StatJOG 1.5x Body StatRUN 2x Body StatSPRINT 4-5x Body StatJumping Distance (m)Jumping Distance (m) UP/BACK From Stationary  1 8BODY STAT FORWARD From Stationary  1 4BODY STAT FORWARD With Running StartBODY STAT FORWARD Vehicle With Ramp1 4TOP SPEED Swimming Speed (kph)Swimming Speed (kph) SHORTER DISTANCES 1x Body Stat1 2LONGER DISTANCES   x Body Stat Dice Distribution ResultsDice Distribution Results 0%5%10%15%20%25% Minor Edge Minor Obstacle Major Edge Major Obstacle Normal Dice Roll 32             3             4              5             6             7              8             9            10           11          12 RISK REWARD Hedging Dice RollsHedging Dice Rolls NORMAL CHECK 7 Auto ResultMINOR EDGE 8 Auto ResultMINOR OBSTACLE 6 Auto ResultMAJOR EDGE 9 Auto ResultMAJOR OBSTACLE 5 Auto Result Game RoundsGame Rounds 3-4 Each Seconds In Length Speed ConversionSpeed Conversion 1 Kilometre/hour (kph)1 metre/round== Frequency of Roll ResultGreg Doachi(e Odr2er 495087857) ---PAGE 176--- ACTION ACTION 09: ACTION PAGEPAGE 175175 Attack vs. DefenceAttack vs. Defence ACV + Attack Attributes + DICEvs.vs.DCV + Defence Attributes + DICE Highest total result succeeds \u2013 attacker wins tiesHighest total result succeeds \u2013 attacker wins ties DamageDamage Weapon Damage Level\t Multiplier + ACV + Size\tModifierxx Unarmed damage equals ACV aloneUnarmed damage equals ACV alone Recovery RateRecovery Rate HEALTH POINTSBODY Each DAY of rest Normal DamageBODY Each HOUR of rest Stun Damage ENERGY POINTS(MIND\t+\tSOUL) Each HOUR of rest1 2 Opposed Dice RollsOpposed Dice Rolls Stat + Skill Group + DICEvs.vs.Stat + Skill Group + DICE Alternatively, vs. Target Number (TN) for unopposed rollsAlternatively, vs. Target Number (TN) for unopposed rolls InitiativeInitiative ACV+ DICE Lightning Reflexes givesLightning Reflexes gives a major or minor edgea major or minor edge Target Numbers (TN)Target Numbers (TN) SIMPLE 6EASY 9AVERAGE 12DIFFICULT 15CHALLENGING 18UNLIKELY 21IMPROBABLE 24 Weapon Ranges (m or km)Weapon Ranges (m or km) RANK 1 3RANK 2 10RANK 3 100RANK 4 1KRANK 5 10 KRANK 6 100 KRANK 7 1000 KGreg Doachi(e Odr2er 495087857) ---PAGE 177--- ACTION ACTION GAME TIMEGAME TIME The \u201cin game\u201d passage of time in a role-playing game is fluid, just as it is in a story. In some situations, such as a conversation between two characters, the flow of game time normally matches real world time. More often, the amount of time that passes depends on the characters\u2019 activities as set by the players\u2019 actions \u2013 things happen as soon as dramatically appropriate. Climbing a high mountain may just takes a few short minutes of description, or a few die rolls, to resolve. It does not take the many hours that climbing a mountain would really take. The GM should telescope time until something interesting happens: \u201cT wo weeks pass while you investigate the crime. Then the terrorist broadcasts a message, announcing their plans to destroy Tokyo Tower if their demands are not met.\u201d GMs may go back in time as well to employ flashback scenes, which are useful tools to establish the background for a story without simply recounting the information in dry fashion. Finally, in very dramatic situations such as combat, the GM may keep very precise track of time by using individual \u201ccombat rounds\u201d (see Combat, page 183). SCENE, ROUND, AND SCENE, ROUND, AND INITIATIVEINITIATIVE T wo common measures of game time are a dramatic scene and a round. A dramatic scene is any situation where the events remain linked, moment-to-moment. Think of it in movie terms \u2013 a scene lasts until the camera cuts to an entirely new setting, potentially with new characters. If, for example, a player-character is speaking with an informant in a diner, the entire conversation constitutes a scene. Once the GM switches scenes to the character entering a back alley, following up on the informant\u2019s lead, the diner scene ends and a new scene begins in the back alley. If the conversation was interrupted instead by a villain attacking the informant, intent on shutting them up before he could reveal any important information, the scene would not yet end when the character chased the villain down a back alleyway. Since the events are still linked moment- to-moment, it is still a part of a singular dramatic scene even if the setting has changed. A round is a measure of time of approximately 3-4 seconds in length, while an Initiative is one specific moment in time. A round is primarily used for combat situations and is the amount of time in which an average person can react to a situation, make a decision, and perform a significant action during a battle or other stressful situation.When combat occurs, characters roll Initiative (page 182) and each character is allowed to act in order of their Initiative (with those characters with higher Initiative numbers acting earlier in the round than those with lower Initiative numbers). DICE ROLLSDICE ROLLS BESM uses standard six-sided dice (also known affectionately as 2d6) during game play. When a random number needs to be generated, two dice are usually rolled (see Edges and Obstacles, page 182, for exceptions to this). By adding the two numbers shown on each die, values between 2 and 12 are generated. The range of dice rolls produces a triangular distribution (a cousin to the bell curve), with the middle value of 7 generated most frequently (one-sixth of all rolls). Rolls are made during a BESM game to determine the success or failure of important actions performed by the player characters or by NPCs interacting with them. Rolls are only needed for actions where the character\u2019s success is uncertain. The GM can decide that an action succeeds or fails without a roll, and many routine or minor actions should be resolved this way. See Should You Roll The Dice? (page 180) If the GM decides a dice roll is required, the player rolls two dice and adds the relevant Stat, Combat Value, or Attribute Level modifier to the number rolled. The resulting sum is called the \u201ctotal roll.\u201d The higher the total roll, the better the character\u2019s attempt. The total roll is compared to either a Target Number (page 177) or opposed roll (page 178) to determine if the task was successful. WHO ROLLS THE DICE? In most cases, a player rolls dice to determine the success of an action their character performs, while the GM rolls the dice to determine the results of NPC actions when they impact the characters. In situations where NPCs are only involved with other NPCs, the GM should simply decide what happens rather than rolling dice. In some circumstances, the GM may roll the dice to determine the results of a character\u2019s action instead of having a player roll to keep the actual dice roll \u2013 and the reason for rolling \u2013 secret. This is normally done if having the player roll would give away an event that should remain unknown to the character. For example, if there is something hidden that the character may or may not notice, the GM can secretly roll dice to see if the character spots it. If the GM allowed the player to roll the dice, the player would know that a clue existed even if the character did not succeed in noticing it. 09: ACTION PAGEPAGE 176176Greg Doachi(e Odr2er 495087857) ---PAGE 178--- ACTION ACTION TARGET NUMBERSTARGET NUMBERS The success of most non-combat rolls is determined by comparing them to a Target Number or TN (see the table above). The GM assigns the task under consideration a Target Number before the roll is made. If the total roll is equal or higher than the Target Number, the task succeeds. If it was lower, it fails. GMs should assign Target Numbers based on how easy or difficult the task is to perform. When in doubt, assign an average difficult Target Number of 12. For example, driving a car along a busy highway would not normally require any dice rolls for most people in a modern setting, since driving is routine. Driving on the highway at high speeds during inclement weather might require a dice roll, though ... probably a Simple task (TN 6) or an Easy task (TN 9). Racing along in a complex construction zone in ideal weather conditions is perhaps an Average task (TN 12) or perhaps a Difficult task (TN 15) in inclement weather. If the car\u2019s brakes no longer work, racing along the highway may become a Challenging task (TN 18) or Unlikely task (TN 21) instead. Attempting to do so while blindfolded \u2013 and merely using the sound of the traffic to guide the wheel \u2013 is an Improbable task (TN 24). The GM usually tells the player the task\u2019s Target Number before the player rolls. In some instances, though, the GM can keep the Target Number a secret to create dramatic tension and only reveal it after the character\u2019s total roll resulted in success or failure. TARGET\tNUMBERS DifficultyTarget NumberInterpretation Simple 6Almost everyone will succeed Easy 9Characters will very rarely fail Average 12 Success often requires some talent or training Difficult 15Success often requires above-average ability Challenging 18Success often requires significant ability Unlikely 21Success requires exceptional ability Improbable 24 Success requires unparalleled ability16 09: ACTION PAGEPAGE 177177 Greg Doachi(e Odr2er 495087857) ---PAGE 179--- ACTION ACTION OPPOSED ROLLSOPPOSED ROLLS Instead of setting a specific Target Number, the GM may decide that a task requires an opposed roll. This is appropriate for any situation that involves a direct competition between opponents, such as arm wrestling, a game of chess, an interrogation, or combat. In an opposed roll situation, the two (or more) characters involved each roll their own dice. The character with the higher total roll (for example, a dice roll + Stat + Skill Group) succeeds. If the result is a tie, the active character (such as the attacker in combat or the challenger in a game of chess) wins over the reacting character. If both characters can reasonably be considered active and a tied result is reasonable \u2013 such as in a running or car race \u2013 the contest is a draw; otherwise, re-roll to break the tie. So how does the GM set the Target Number for a given task? You can better understand what the reasonable values should be used if you grasp the probabilities of success or failure. Consider a person with values of 4 in each Stat (human average) and slightly skilled in an area (Skill Group at Level 1). Since a value of 7 is rolled a little more than 50% of the time on two dice, this average person will succeed a little more than 50% of the time when performing Average tasks (Stat 4 + Skill 1 + Roll 7 = 12 ... equalling the average Target Number of 12). All Target Numbers were set with these parameters in mind. For your convenience, the probabilities for rolling specific values or higher are listed below: Dice\tValueChance of Rolling This Value\tor\tHigher 2 100% 3 97% 4 92% 5 83% 6 72% 7 58% 8 42% 9 28% 10 17% 11 8% 12 3% When setting a Target Number for the task, remember that a 7 or higher will be rolled about half the time. If you subtract 7 from the Target Number, the remaining number is the minimum Stat + Skill Group total the character must have to succeed, on average, half the time. For example, if you look at a Challenging task (TN 18), and subtract 7 from that target value, the remaining result is 11. Consequently, to have a roughly average chance of succeeding, the character\u2019s Stat + Skill Group must equal 11 \u2013 clearly not common in a low-powered game! While it is possible for a slightly above-average character with a Stat of 5 and Skill Group of 1 to succeed while performing a Challenging task (only if they roll a 12), it is extremely unlikely \u2013 only a 3% chance! That\u2019s why it\u2019s called Challenging. Setting Target Numbers is not difficult, provided you understand what your goal is regarding the chance for character success and failure.UNDERSTANDING TARGET\tNUMBERS 09: ACTION PAGEPAGE 178178 Greg Doachi(e Odr2er 495087857) ---PAGE 180--- ACTION ACTION ROLL TYPESROLL TYPES There are five types of dice rolls used during game play: a Stat roll, a Skill roll, an Initiative roll, an attack roll, and a defence roll. Each of these rolls test a particular facet of a character\u2019s abilities. When a player announces the intended actions of their character, the GM must decide if a dice roll is necessary. Should a roll be required, the GM chooses which type of roll is most appropriate, based on these guidelines. Attack and defence rolls are described in additional detail in the combat sectionlater in this chapter (page 183). The other three types of rolls are explored below. SSTAT ROLLSTAT ROLLS A Stat roll is used when the GM believes that innate ability is more important than any learned expertise or combat capability in resolving the success of a particular action. An example of a Stat roll would be a Body Stat roll to force open a locked door using brute strength. Another important use for Stat rolls is to see if a character can resist the effects of something bad, such as mind control, poison, or shock. The GM decides which Stat (Body, Mind, or Soul) is being tested by the action or situation. See the Stat descriptions in Chapter 4 (page 70) for a list of activities that are associated with particular Stats. For Stat rolls that relate to an Attribute, the relevant Stat is often suggested in the Attribute description. If the GM feels two or three Stats are closely related to the action, an average Stat Value can be calculated instead, rounding up to the closest whole number. The success of a Stat roll is determined by rolling two dice and adding the relevant Stat and any situational modifiers. The result is the total roll. This is compared to either the Target Number (page 177) or to an opposed roll (page 178) to determine if the task was successful. The GM must decide whether a Stat roll is made against a Target Number or is an opposed roll. If it is an opposed roll, the GM must decide what type of roll opposes it. This may be the same type of roll \u2013 for example, Body Stat versus Body Stat in a wrestling contest. Or it could be a different Stat, such as opposing Body versus Soul when seducing an innocent. In some situations, the GM may also decide that a Stat roll is opposed by another type of roll, such as a Skill roll. A character\u2019s Attributes or Defects can sometimes modify certain Stat rolls. For example, the Mind Shield Attribute (page 109) adds a +2 bonus per Level to any Mind Stat rolls when resisting psychic intrusion. Conversely, the Shortcoming Defect (page 164) penalises Stat rolls related to the specific deficient Stat aspect.  UUSING ATTRIBUTESSING ATTRIBUTES If an Attribute does not specifically require a Stat roll, GMs can assume they function automatically in most situations. Of course, the Game Master may decide that a roll is necessary in unusual circumstances. For example, a character with the Features (Appearance) Attribute always looks good, but the GM might require a Soul Stat roll if they are attempting to attract someone\u2019s attention. Certain Attributes occasionally require Stat rolls (or sometimes Attack, Defence, or Skill rolls) to properly use the Attribute, while other Attributes and Defects provide modifiers to existing rolls, as noted in their descriptions in Chapters 5-7. SSKILL ROLLSKILL ROLLS A Skill roll is similar to a Stat roll, except it is used when the task is one that the GM decides would be governed by both a Stat and a particular Skill Group Attribute (page 120). If a task requires general intellectual ability (such as remembering the name of a person the character had met), the character normally makes a simple Mind Stat roll. Deciphering a scroll written in a rare alien language would also require a Mind Stat roll, but this task falls under the umbrella of the Academic Skill Group. In game terminology, this task would require a \u201cMind- Based Academic Skill Group roll\u201d \u2013 shortened to an \u201cAcademic Skill Roll\u201d. For such Skill rolls, add both the appropriate Stat and the Skill Group Level to the dice roll to determine the total roll. The GM is responsible for deciding which Stat and Skill Group are relevant to a particular task. Of course, the GM should listen to the player\u2019s reasoning why a particular Skill Group would apply to their roll, but the final decision belongs to the GM. The GM should select the Target Number before the player rolls, or decide if the roll is opposed. In opposed rolls, the GM also decides whether the roll is opposed by a Stat roll or Skill roll (or other type of roll) and what Stats or Skill Groups are involved. This may depend on a character\u2019s actions. Sometimes the opposing roll will involve the same Skill Group, but often a different Skill or a Stat roll is more appropriate. For example, during a tense interrogation scene, a Mind-based Street Skill roll could be opposed by: a Soul Stat roll (if someone tries to resist by sheer will power); a Mind Stat roll (if the character tries to trick the interrogator); a Body Stat roll (to tough out any physical abuse); a Business Skill roll (if the character tries to make a deal to stop the interrogation); an Adventuring Skill roll (if the character pretends to pass out during the interrogation); 09: ACTION PAGEPAGE 179179Greg Doachi(e Odr2er 495087857) ---PAGE 181--- ACTION ACTION etc. The GM decides which Stats or Skill Groups are valid, and there is plenty of opportunity for creativity when role-playing. SKILL\tSYNERGY It is possible for a character to have two or more Skill Groups that work well together during a specific task, such as the Technical and Scientific Skill Groups when trying to bypass a complex biomechanical lock. If the GM allows multiple Skill Groups to assist in the task, the character makes a Skill roll using the Skill Group ranked at the highest Level, gaining a minor edge (page 182) on the roll for one synergistic Skill Group or a major edge for two or more synergistic Skill Groups. COMBINING \tSKILL\tROLLS When more than one character applies the same Skill Group at the same time towards the same goal, their efforts may overlap \u2013 they can work together and help each other out. In this case, one character is considered the leader of the effort and the other characters are helpers. The leader receives a minor edge (page 182) if one or two other skilled characters are helping or a major edge if there are more than two helpers. The GM may limit co-operation in any situation where it would be inappropriate. UUNSKILLED ATTEMPTSNSKILLED ATTEMPTS Often, a character will attempt an action for which they do not possess the relative Skill Group. The approach in these situations is dependent on the nature of the action. FAMILIAR \tACTION If the character is undertaking a familiar action, yet lacks a relevant Skill Group, make a Stat roll instead of a Skill roll. The familiarity should have been established previously, such as in the character\u2019s background story, or should be consistent with the character\u2019s role within the setting. The player should explain to the GM why their character is familiar with the current task, with the GM having final say whether the character is sufficiently familiar with the task to avoid an unfamiliar action penalty (see below). For example, a student who attends university to study astronomy undoubtedly has at least a cursory familiarity with many academic fields. Similarly, almost all characters living in a big city may be familiar with the process of driving a car, even if they do not possess a relevant Skill Group. A hermit living in the depths of the Amazon, however, is likely not familiar with motor vehicles and therefore driving would be an unfamiliar action for that character. Not all actions require a dice roll. Obviously many mundane character activities, such as hammering a nail, riding a horse down a road, or eating lunch, should never need dice rolls unless there are exceptional circumstances surrounding the character\u2019s actions. In other situations, the necessity to roll dice is less obvious. If a character is virtually guaranteed to succeed at a task, then the GM should consider whether the roll is necessary. While it is true that the character might fail, having the player roll the dice will slow the game down. Consequently, GMs should recognise when a character is almost certainly going to succeed at an unopposed task and not request a dice roll. Game play can then continue uninterrupted. The following is a list of suggestions when the dice should and should not be rolled. If a roll is unnecessary, the character should gain an automatic success for the action. ROLL\tDICE\tWHEN... \u00bbthe unpredictability of dice adds to the excitement of the game \u00bbthe action is foreign to the character \u00bbthe action has been a weakness for the character in the past \u00bbthe character is somewhat distracted or cannot concentrate on their task \u00bbanother character or NPC is working directly against the character \u00bbthe action is not of trivial difficulty \u00bboutside forces influence the actions \u00bbthe player wants to roll the dice DO\tNOT\tROLL\tDICE\tWHEN... \u00bbrolling dice would reduce the enjoyment of the game \u00bbthe action is routine for the character \u00bbthe action requires a trivial amount of talent compared to the character\u2019s Skill Group Level \u00bbthe character is hedging on a roll (page 182) \u00bbstory flow is more important than the rollSHOULD YOU ROLL THE DICE? 09: ACTION PAGEPAGE 180180Greg Doachi(e Odr2er 495087857) ---PAGE 182--- Greg Doachi(e Odr2er 495087857) ---PAGE 183--- ACTION ACTION UNFAMILIAR \tACTION If the character is undertaking an action with which they are unfamiliar, the task should be treated as a normal Stat roll but with a minor or major obstacle (page 182) applied to the roll \u2013 depending on how much the GM feels training is required and how background aspects of the character could affect the attempt. For example, keeping a plane in the air after the cabin crew suddenly falls unconscious is a daunting task for anyone who is not trained as a pilot. An average character might therefore receive a major obstacle to their Mind Stat roll. A character who is an aficionado of combat jets and aircraft documentaries might only receive a minor obstacle on the roll ... even if they have never actually piloted a plane before. REQUIRED SKILL The GM may decide certain tasks automatically fail when performed by characters lacking the required Skill. Examples of required Skill activities include: performing brain surgery, deciphering ancient hieroglyphics, concocting an antidote for a poison, estimating the value of a rare piece of art, etc. IINITIATIVE ROLLSNITIATIVE ROLLS Initiative rolls are a special type of roll made by participants at the start of a combat scene to determine the order in which they will act. Each participant in the battle makes an Initiative roll using the sum of two dice plus their Attack Combat Value (after modification by specific Attributes and Defects). In addition, the Lightning Reflexes Combat Technique (page 83) gives the character a minor or major edge on their roll. Initiative rolls determine the Initiative order, from the highest to the lowest total roll. See Initiative, page 188. BEYOND TWO DICEBEYOND TWO DICE Although most dice rolls involve simply rolling two six-sided dice as described earlier, situations may arise that result in the player rolling additional dice or no dice. EEDGES AND OBSTACLESDGES AND OBSTACLES Sometimes an Attribute, Enhancement, Limiter, or Defect provides distinct changes to your character\u2019s dice rolls known as edges and obstacles. These modifiers shift the probability distribution of the dice rolls away from a symmetrical triangular distribution (that has a value of 7 in the middle) to an asymmetrical skewed curve as shown on page 174.For example, a character with the Elasticity Attribute (page 90) receives a minor edge on unarmed attack rolls to express their flexibility advantage. Conversely, a Weapon with the Inaccurate Limiter assigned twice (page 142) gives the character a major obstacle on attack rolls to reflect the imprecise nature of the attack. MINOR\tEDGES\tAND\tOBSTACLES When a minor edge or obstacle is applied to a roll, you roll three dice instead of just the normal two dice. You add together the two highest numbers for a minor edge (discarding the lowest roll), or two lowest numbers for a minor obstacle (discarding the highest roll). For example, if you roll three dice that come up as a 1, 3, and 6, the final roll result for a minor edge would be 9 (3+6) and for a minor obstacle would be 4 (1+3). MAJOR\tEDGES\tAND\tOBSTACLES When a major edge or obstacle is applied to a roll, you roll four dice instead of just the normal two dice. You add together the two highest numbers for a major edge (discarding the lowest two rolls), or two lowest numbers for a major obstacle (discarding the two highest rolls). For example, if you roll four dice that come up as a 2, 2, 3, and 5, the final roll result for a major edge would be 8 (3+5) and for a major obstacle would be 4 (2+2). MODIFYING \tTHE\tDIFFICULTY The GM can also apply edges and obstacles to character rolls when situationally and dramatically appropriate to increase or decrease the difficulty of an action. For example, a character attempting an emergency appendectomy (a Challenging task with TN 18) might receive a minor edge to their Skill roll under ideal conditions, such as being walked through the procedure by an expert surgeon. Conversely, a character riding a horse through an obstacle course (an Easy task with TN 9) might suffer a major obstacle to their Skill roll under exceptionally adverse conditions, such as having to avoid enemy gunfire while negotiating the obstacle course. HHEDGING ROLLSEDGING ROLLS At the GM\u2019s discretion, a player may eliminate the random element of a dice roll for their character by assuming an automatic result of 7 instead of rolling the dice (known as \u201chedging\u201d). Any Attribute bonuses or penalties still apply as normal, adding to or subtracting from the 7 result. A character can use hedging on any roll if the GM permits, including Stat, Skill, Initiative, attack, and defence rolls. The hedging value of 7 is increased to 8 for a minor edge and 9 for a major edge, or decreased to 6 for a minor obstacle and 5 for a major obstacle. 09: ACTION PAGEPAGE 182182Greg Doachi(e Odr2er 495087857) ---PAGE 184--- ACTION ACTION COMBAT IN COMBAT IN BESMBESM Conflict is an essential component of nearly all role-playing games. Physical conflict, or combat, is an important element of BESM \u2013 but important need not be the same as frequent. Combat should be a vital element of a scene and not just a distraction that the GM uses to pass the time. The combat rules created for BESM were designed to mimic the dynamic and fast-paced battles of anime and manga adventures. Whenever a character enters physical conflict with another character or NPC, combat begins. At the beginning of any new combat scene, the characters all make Initiative rolls (page 182). This determines the order they can act in during the combat: the Initiative order. This remains constant for the duration of the combat and under normal circumstances does not change round to round. After the Initiative order has been determined, combat proceeds through a series of one or more rounds. Each round of combat covers from 3-4 seconds of time from the characters\u2019 perspectives, depending on the characters\u2019 actions and the circumstances (the exact time scale is not particularly relevant, with anything from 1-10 seconds appropriate for a round). GMs can have rounds represent more time if it would be dramatically appropriate \u2013 for example, a huge long- ranged space battle. A round is simply the period of time in which an ordinary character can perform one significant action. Characters are normally permitted to take one action per round, though characters with the Extra Actions Attribute (page 92) can act multiple times in a single round. An action is a major activity, such as attacking an opponent (an attack action) or doing something else significant like performing magical ritual, using a special ability, or running away with no thought to doing anything else (a general action). An action can typically also incorporate limited movement while carrying out the activity. Defending against someone else\u2019s attack is not an action, but rather is an automatic reaction in response to an action (see the section on Defence, page 192) Each round of combat is subdivided into two parts: Initiative and character action. The GM resolves Initiative first, then all the participants in a combat get to perform a character action. After they have done so, the round ends and if combat is still ongoing, a new combat round begins. 09: ACTION PAGEPAGE 183183 Greg Doachi(e Odr2er 495087857) ---PAGE 185--- ACTION ACTION 09: ACTION PAGEPAGE 184184EXAMPLE  EXAMPLE OF COMBATOF COMBAT The following brief description of how combat can work in BESM continues the example of play from pages 17-19 in Chapter 1. T wo members of the Psychic Assault Corps \u2013 Julian (playing Kozoh, a weapons master) and Lynne (playing Sparks, an augmented tech genius) \u2013 had just run into a small hoard of Bazaroth demons on a spaceship in Earth\u2019s orbit. Rae, the Game Master, was setting the scene. Julian: Kozoh rushes to attack, assuming that Sparks will back me up. Lynne: You know I will! Rae: Because Kozoh is attacking, I want Julian and Lynne to roll Initiative. Dr. Chaz and Hogarth, you may get a chance to influence things later, but hold tight for now. Julian: (rolls dice) Kozoh has Combat Technique (Lightning Reflexes) so that\u2019s a minor edge. With three dice, my highest two results are 5 and 6 so that\u2019s 11. His ACV is 6, for a total of 17. Lynne: (rolls dice) Sparks rolls 5, plus her ACV of 7, for a total of 12. Rae: You are both fast! (She secretly rolls Initiative for the demons and their leader, Azok. Final results are 15 for Azok, and 10 for the demons) Kozoh is first with 17, so you\u2019re up. Julian: I don\u2019t care about the stupid regular demons \u2013 my top priority is taking down the archfiend. I\u2019m going to dodge between the hoard, then launch a flying katana slice at the fiend. Rae: OK, roll your attack. Julian: Kozoh\u2019s ACV is 6, and he has Melee Attack (Sword) Attribute at Level 2 for +4. I rolled an 8 so that\u2019s a final total of 18. Rae: You came around the corner, ran into the demons, and then launched your assault immediately before any of them truly even realised you were there. You fly over the railing, zip past several demons, and the archfiend Azok is too surprised to defend. Your sword slices across its chest. How much damage?Julian: My katana is a Level 3 Weapon and my Damage Multiplier is 7, so that\u2019s a base of 21 points. Add my melee-modified ACV of 10 and that\u2019s 31 total damage. Rae: (Looks at Azok\u2019s character sheet; it has Armour Level 4, which stops 20 damage, so Kozoh\u2019s sword only inflicted 11 damage.) Azok composes itself, smiles, and wipes away a thin line of blood from its naturally armoured chest. Julian: Uh-oh. (to Rae) Do I know if the PAC radiotelepathy gear is still working? Rae: It was last time you checked a few minutes ago. It should be fine, unless something has changed since then. Now as you\u2019re pondering that, at 15 Initiative, Azok pulls back a mighty fist and lashes out with a powerful blow. Do you defend? Julian: Damn straight. I duck and weave. (rolls dice) My final defence total is 14. Is that enough? Rae: (rolling, Rae gets 9 on two dice and adds Azok\u2019s ACV of 10 for a final attack roll of 19) Unfortunately, no. Azok isn\u2019t like its lesser brethren and I made a solid attack roll. Azok\u2019s leathery fist smashes into your jaw. (Calculates unarmed attack damage, including Azok\u2019s Superstrength Attribute) You take 32 damage to the chin! Julian: Ow. Quite a punch! Hey, can I quickly talk to Dr. Chaz via radiotelepathy while I was trying to defend? Rae: If the conversation is short, and if Azok lets you keep any teeth, sure. Lynne: Brutal. Azok is owning you! Julian: Funny, Lynne, funny. (as Kozoh) Chaz, are you there? We\u2019ve encountered hostiles. James: (as Doctor) Oh geez. What? Julian: (as Kozoh) Dammit Doctor, we\u2019re fighting an archfiend and a small hoard of demons. Do something! Why aren\u2019t you here? James: Splitting up was Sparks\u2019s plan! Okay, we\u2019ll get there as soon as we can. Leave some for us! (to Rae) Hogarth and Chaz will abandon the engineering room and race towards the bridge to join in the fight. Rae: (to James) Got it. You\u2019ll be there soon, but not this round obviously. (to Lynne) Sparks, you\u2019re up next at 12 Initiative so what are you doing? Greg Doachi(e Odr2er 495087857) ---PAGE 186--- ACTION ACTION 09: ACTION PAGEPAGE 185185Lynne: I\u2019ve Power Fluxed my left hand into a nasty Level 3 Weapon machine pistol that has one assignment of the Spreading Enhancement, so I\u2019m going to strafe two of the demons. Rae: Cool. As you know, that\u2019s a major obstacle on the attack roll. What do you get? Lynne: My ACV is 7 with +2 from Level 1 Ranged Attack with the handguns focus \u2013 see what I did there? (rolls dice, showing 2, 4, 5, 6) The bottom two dice add to 6, so that\u2019s 15. Rae: (rolls defence once to speed things up for two demon targets since the pistol has Spreading, getting a 14 total) Sparks, your aim is true! You see a look of shock on the demons faces \u2013 first as your hand shapechanges into a gun and then again as they get sprayed in the face with hot lead. How much damage do you inflict? Lynne: Well, a Level 3 Weapon times my Damage Multiplier of 6 is 18, plus 9 for my range- modified ACV, so that\u2019s 27 to each beast. Rae: Ouch, that\u2019s substantial since, unlike their boss, they don\u2019t have armour to soften the blow. They\u2019ll remember that, though. In fact, the two of them rush you on Initiative 10. The other three are climbing over each other to claw at Kozoh. Julian: Hey, I already have my hands full fighting their boss! Rae: Yup, and they want to help Azok tear you apart. First, let\u2019s resolve the two on Sparks since they seem to be quite angry for some reason. (rolls dice twice, since each demon attack is calculated separately; final attack rolls results are 9 and 12). Fortunately, Sparks, their attacks are slow because they\u2019re in pain. Did you want to avoid both demons? Lynne: Of course! I\u2019m clearly stronger, faster, and cuter than those beasts and will taunt them as I step and weave away from their flails. (rolls two defence rolls; a 7 and 9 result). With my DCV of 7, I have a 14 and 16 defence rolls. Is that enough? Rae: Yeah, you\u2019re too fast for them. (to Julian) And now, let\u2019s resolve the three uglies racing towards you. James: (interrupting) Wait, are the Doctor and Hogarth there yet to join the battle?Rae: Umm, no. It\u2019s the same combat round as when Kozoh radioed out so it\u2019s only been a few seconds. You have just started running towards the battle. I\u2019ll let you know. James: But I want to hit something! Rae: (to Julian) As I was saying, you have three demons on you, Kozoh. They don\u2019t seem very smart because they\u2019re just wildly attacking head-on with their claws instead of trying to flank you with their greater number. (rolls three times; final attack rolls are 7, 10, and 15). Defending, I presume? Julian: Oh, yeah. With four of the bads on me, I don\u2019t have a lot of options. I\u2019m trusting our backup will be here shortly, so my enhanced weapons and tactics training will keep me calm and focussed. (rolls dice) My final defence roll is 14 again so I\u2019m assuming that\u2019ll keep my sore chin away from their claws? Rae: It\u2019s difficult to keep your katana between you and Azok and the three demons. Your blade defence is admirable, but one demon feints high and then claws with its foot talons against your thigh. (Calculates unarmed attack damage) Only 9 damage. Julian: Hey team, I\u2019m down one half of my Health Points and it\u2019s only the first round. We gotta do something! Rae: Four-on-one battles do indeed tend to go that way sometimes. Julian and Lynne, roll for Initiative again for the second combat round. (checks with players) OK, with that natural 12 roll, you\u2019re first up Sparks. Lynne: My two demons are wounded but I see that Kozoh is outnumbered and in jeopardy. I\u2019ll Power Flux my right hand into a powerful strobe light like I did when we took down that giant spider in the crypt last month. That\u2019s the Control Environment: Light Attribute so I can try to blind everyone in the room. Kozoh can fight blind, so that\u2019ll give him the advantage. Rae: Smart thinking. Your hand quickly morphs into a powerful strobe and you pulse an intense flash of light. Everyone, including, Kozoh, is temporarily blinded. You closed your eyes, Sparks, so you\u2019re fine. (to Julian) Kozoh has gained the next Initiative. Julian: Excellent. Blindness is just another form of sight for me. Let the slicing continue!Greg Doachi(e Odr2er 495087857) ---PAGE 187--- Greg Doachi(e Odr2er 495087857) ---PAGE 188--- Greg Doachi(e Odr2er 495087857) ---PAGE 189--- ACTION ACTION DETERMINING DETERMINING INITIATIVEINITIATIVE Initiative regulates the order in which characters act. It is checked only once, at the beginning of the combat scene, and remains constant for the entire fight. Each participant in the battle makes an Initiative roll using the sum of two dice plus their base Attack Combat Value ( after modification by specific Attributes and Defects ). In addition, the Lightning Reflexes Combat Technique (page 83) gives the character a minor or major edge on their roll. The GM does the same for any NPCs engaged in the conflict. The GM should make a note of the Initiative total rolls of each character and NPC and rank them from highest to lowest (ties remain as ties). This is the Initiative order. The character with the highest total roll has \u201cgained Initiative\u201d and acts first (using all actions, if they has the Extra Actions Attribute), followed by others in descending order. Alternatively, characters can decide to hold their Initiative until some time later in the round. Should two or more characters or NPCs have the same Initiative, the character with the highest Attack Combat Value acts before the others. In the event of another tie, the tied characters act simultaneously. Should additional characters enter the scene mid-way through the combat, roll Initiative for them and assign them a place in the Initiative order based on their rolls. CHARACTER CHARACTER ACTIONACTION Characters act in the sequence determined by the Initiative order. When it is time for a character to act, they may take their single action. If the character has the Extra Actions Attribute (page 92), they may take additional subsequent actions at this time.  TTYPES OF ACTIONSYPES OF ACTIONS There are two categories of action: attack actions and general actions. A character who can perform multiple actions may perform the same or different types of action. For example, a character with one Extra Action could choose to take two attack actions, a general action and an attack action, or two general actions. Furthermore, decisions concerning the specifics of the subsequent actions can be made after the results of the previous action is known. 09: ACTION PAGEPAGE 188188 Greg Doachi(e Odr2er 495087857)"
+      }
+    ]
+  }
+]
