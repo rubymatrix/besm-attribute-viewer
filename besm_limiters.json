@@ -1,7 +1,7 @@
 [
   {
     "name": "Activation",
-    "description": "The Attribute requires a high degree of concentration, such as chanting an incantation, focussing personal energies, loading individual shots, preparing ingredients, or programming a computer.\nThe character cannot move or make defence rolls on the same round that they use or activate the Attribute. Activation is appropriate for Attributes that produce instantaneous effects, such as Healing or Weapon, and is also appropriate for ongoing Attributes like Armour or Flight – but only if they were assigned the Deplete, Detectable, Irreversible, or Recovery Limiters as well. Activation is not usually assigned to Attributes that can be kept on indefinitely without inconveniencing the user. Wearable Items are normally assumed to take an appropriate time to put on or remove, so do not assign Activation to Attributes embodied in such Items unless the individual Attributes requires further Activation once the Item is ready to use.",
+    "description": "The Attribute requires a high degree of concentration, such as chanting an incantation, focussing personal energies, loading individual shots, preparing ingredients, or programming a computer. The character cannot move or make defence rolls on the same round that they use or activate the Attribute.\n\n**Activation**\nis appropriate for Attributes that produce instantaneous effects, such as Healing or Weapon, and is also appropriate for ongoing Attributes like Armour or Flight – but only if they were assigned the Deplete, Detectable, Irreversible, or Recovery Limiters as well.\n\n**Activation**\nis not usually assigned to Attributes that can be kept on indefinitely without inconveniencing the user. Wearable Items are normally assumed to take an appropriate time to put on or remove, so do not assign Activation to Attributes embodied in such Items unless the individual Attributes requires further Activation once the Item is ready to use.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -19,7 +19,7 @@
   },
   {
     "name": "Assisted",
-    "description": "The Attribute requires supporting individuals who must be present for its ongoing function or activation. These assistants cannot be just anyone nearby since they must fulfil some sort of special requirement appropriate to the Attribute.\nThis could be assigned to represent a major magical ritual that requires an entire congregation of chanting acolytes or true believers or an Attribute built into an Item that requires human or animal power (such as Water Speed requiring rowers or a carriage requiring a horse).",
+    "description": "The Attribute requires supporting individuals who must be present for its ongoing function or activation. These assistants cannot be just anyone nearby since they must fulfil some sort of special requirement appropriate to the Attribute. This could be assigned to represent a major magical ritual that requires an entire congregation of chanting acolytes or true believers or an Attribute built into an Item that requires human or animal power (such as Water Speed requiring rowers or a carriage requiring a horse).",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -37,7 +37,7 @@
   },
   {
     "name": "Backlash",
-    "description": "The character suffers an unfortunate side effect whenever the Attribute fails to work.\nIf the character fails their appropriate Stat roll when using the Attribute or badly misses their target when attacking with a Weapon, the character is hit with the energy or essence that would have powered the Attribute’s use.\nThe Backlash could be physical damage, memory loss, Stat drain, disorientation, or many other effects that make the character’s life more difficult.\nThe player and GM should determine the game effect of the Backlash.",
+    "description": "The character suffers an unfortunate side effect whenever the Attribute fails to work. If the character fails their appropriate Stat roll when using the Attribute or badly misses their target when attacking with a Weapon, the character is hit with the energy or essence that would have powered the Attribute’s use. The Backlash could be physical damage, memory loss, Stat drain, disorientation, or many other effects that make the character’s life more difficult. The player and GM should determine the game effect of the Backlash.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -55,7 +55,7 @@
   },
   {
     "name": "Charges",
-    "description": "The character can only use the specific Attribute occasionally.\nThis may result from a need to recharge the Attribute (or a device), an incredible drain on the character’s internal reserves, a depletion of fuel for a mecha, or a different form of limitation. Charges are normally applied to Attributes with instantaneous effects, such as Jumping or Teleport, or those that have a finite duration per use.\nThe Recovery Limiter (page 152) is usually assigned to Attributes with an ongoing effect, such as Armour or Flight. LIMITERS Activation Deplete Maximum Assisted Detectable Object Backlash Emotional Permanent Charges Environmental Recovery Concentration Equipment Semi-Permanent Consumable Imbue Unique Delay Irreversible Unpredictable Dependent Localised12\n**06: CUSTOMISATION**\n**CUSTOMISATION**\n**CUSTOMISATION**",
+    "description": "The character can only use the specific Attribute occasionally. This may result from a need to recharge the Attribute (or a device), an incredible drain on the character’s internal reserves, a depletion of fuel for a mecha, or a different form of limitation. Charges are normally applied to Attributes with instantaneous effects, such as Jumping or Teleport, or those that have a finite duration per use. The Recovery Limiter (page 152) is usually assigned to Attributes with an ongoing effect, such as Armour or Flight. LIMITERS Activation Deplete Maximum Assisted Detectable Object Backlash Emotional Permanent Charges Environmental Recovery Concentration Equipment Semi-Permanent Consumable Imbue Unique Delay Irreversible Unpredictable Dependent Localised12\n\n**06: CUSTOMISATION**\n\n**CUSTOMISATION**\n\n**CUSTOMISATION**",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -73,7 +73,7 @@
   },
   {
     "name": "Concentration",
-    "description": "The character must concentrate while using the ongoing Attribute (it does not apply to Attributes with an instantaneous effect).\nIf the character’s concentration is interrupted voluntarily or by an outside event, the Attribute ceases to function.",
+    "description": "The character must concentrate while using the ongoing Attribute (it does not apply to Attributes with an instantaneous effect). If the character’s concentration is interrupted voluntarily or by an outside event, the Attribute ceases to function.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Consumable",
-    "description": "The Attribute requires some form of focus to use properly, which is destroyed when the Attribute is activated.\nThis focus could be anything from candles and incense to a rocket launch gantry.",
+    "description": "The Attribute requires some form of focus to use properly, which is destroyed when the Attribute is activated. This focus could be anything from candles and incense to a rocket launch gantry.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -109,7 +109,7 @@
   },
   {
     "name": "Delay",
-    "description": "The Attribute does not take effect immediately after its use but rather activates some time later.\nThis latency period may provide the targets or other characters time to nullify or otherwise avoid the Attribute’s effect (GM’s discretion).\nFor example, if a young boy is bitten by a vampire and will soon join the ranks of the undead (ie. the vampire used the Metamorphosis Attribute, page 106, with the Delay Limiter), his parents may still have time to take him to a local shrine to exorcise the evil (and thus countering the Metamorphosis before activation).1 Assignment Delay of a few minutes before it takes full effect",
+    "description": "The Attribute does not take effect immediately after its use but rather activates some time later. This latency period may provide the targets or other characters time to nullify or otherwise avoid the Attribute’s effect (GM’s discretion).\n\nFor example, if a young boy is bitten by a vampire and will soon join the ranks of the undead (ie. the vampire used the Metamorphosis Attribute, page 106, with the Delay Limiter), his parents may still have time to take him to a local shrine to exorcise the evil (and thus countering the Metamorphosis before activation).1 Assignment Delay of a few minutes before it takes full effect",
     "assignment_effects": [
       {
         "assignments": 2,
@@ -123,7 +123,7 @@
   },
   {
     "name": "Dependent",
-    "description": "The character cannot use this Attribute unless one or more other Attributes are used at the same time. Dependent is only a Limiter if this use is a significant disadvantage.\nFor example, a character might have Armour that is Dependent upon Flight (the Armour ceases to function when the character is on the ground) but not Flight that is Dependent on Armour (since there is rarely a compelling reason to turn off the Armour Attribute). Dependent is also a valid if one Attribute requires the other to succeed, provided that a roll is required.\nFor example, Mind Control might be Dependent on Metamorphosis – the character can only take control of people after they have transformed the targets.\nThe player must justify the Dependent Limiter to the GM to avoid inappropriate combinations.",
+    "description": "The character cannot use this Attribute unless one or more other Attributes are used at the same time. Dependent is only a Limiter if this use is a significant disadvantage.\n\nFor example, a character might have Armour that is Dependent upon Flight (the Armour ceases to function when the character is on the ground) but not Flight that is Dependent on Armour (since there is rarely a compelling reason to turn off the Armour Attribute). Dependent is also a valid if one Attribute requires the other to succeed, provided that a roll is required.\n\nFor example, Mind Control might be Dependent on Metamorphosis – the character can only take control of people after they have transformed the targets. The player must justify the Dependent Limiter to the GM to avoid inappropriate combinations.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -141,7 +141,7 @@
   },
   {
     "name": "Deplete",
-    "description": "The character’s Energy Points are used to power a particular Attribute.\nThe Energy Points will either be reduced after the Attributes use (for Attributes for immediate effects, such as Teleport and Weapon), or while the Attribute is being used (for Attributes that are ongoing, such as Flight and Undetectable). For more information on Energy Points and their use, see page 195.",
+    "description": "The character’s Energy Points are used to power a particular Attribute. The Energy Points will either be reduced after the Attributes use (for Attributes for immediate effects, such as Teleport and Weapon), or while the Attribute is being used (for Attributes that are ongoing, such as Flight and Undetectable). For more information on Energy Points and their use, see page 195.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -159,7 +159,7 @@
   },
   {
     "name": "Detectable",
-    "description": "While using the Attribute, the character can be pinpointed and possibly identified by others who have specific detection techniques.\nFor example, the Attribute’s use may create a loud noise or a bright flash, send vibrations through the ground, or emanate mental shock waves. Detection techniques that can pinpoint the Attribute’s use include: astral, ethereal, human sight/hearing/smell, infrared, mental, radar, radiation, sonar, spiritual, ultraviolet, vibration, and others.\nThe Weapon Attribute, which is Detectable by default, is an exception to this Limiter – characters must acquire the Inconspicuous Enhancement (page 138) to make the attack undetectable. Detectable only applies if the Attribute calls attention to itself in an especially noticeable fashion and thus is usually not appropriate for Items (which can normally be seen and identified).",
+    "description": "While using the Attribute, the character can be pinpointed and possibly identified by others who have specific detection techniques.\n\nFor example, the Attribute’s use may create a loud noise or a bright flash, send vibrations through the ground, or emanate mental shock waves. Detection techniques that can pinpoint the Attribute’s use include: astral, ethereal, human sight/hearing/smell, infrared, mental, radar, radiation, sonar, spiritual, ultraviolet, vibration, and others. The Weapon Attribute, which is Detectable by default, is an exception to this Limiter – characters must acquire the Inconspicuous Enhancement (page 138) to make the attack undetectable. Detectable only applies if the Attribute calls attention to itself in an especially noticeable fashion and thus is usually not appropriate for Items (which can normally be seen and identified).",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -177,7 +177,7 @@
   },
   {
     "name": "Emotional",
-    "description": "The Attribute only manifests in situations where the character is experiencing a very strong emotional trigger that calls for the use of the Attribute.\nFor example, a cleric with this Limiter might only be able to use the Healing Attribute on someone with whom the character had a strong emotional tie (such as a friend or family member). Similarly, a Weapon may only function if the character was striking to avenge a loved one, reverse a humiliation, or save the world.",
+    "description": "The Attribute only manifests in situations where the character is experiencing a very strong emotional trigger that calls for the use of the Attribute.\n\nFor example, a cleric with this Limiter might only be able to use the Healing Attribute on someone with whom the character had a strong emotional tie (such as a friend or family member).\n\nSimilarly, a Weapon may only function if the character was striking to avenge a loved one, reverse a humiliation, or save the world.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -195,7 +195,7 @@
   },
   {
     "name": "Environmental",
-    "description": "The Attribute only functions in a particular limited setting or condition.\nFor example Weapon (Environmental: Water) can represent a torpedo, while Alternate Form (Environmental: Virtual Reality) could represent an avatar of the character whose existence is limited to a lifelike cyberspace realm.\nThe environment can be common (one assignment), but should not be one characters will always encounter during the campaign.\nFor example, “only in atmosphere” is not a valid setting unless much of the game action takes place in airless environments.\nThis Limiter is also inappropriate if a limited environment is implicit in the Attribute, such as Water Speed being limited to travel through liquids. Environmental is useful for creating an internal Attribute such as a Weapon or Sixth Sense that are only usable within a specific structure or inside a large Item such as a starship.",
+    "description": "The Attribute only functions in a particular limited setting or condition.\n\nFor example Weapon (Environmental: Water) can represent a torpedo, while Alternate Form (Environmental: Virtual Reality) could represent an avatar of the character whose existence is limited to a lifelike cyberspace realm. The environment can be common (one assignment), but should not be one characters will always encounter during the campaign.\n\nFor example, “only in atmosphere” is not a valid setting unless much of the game action takes place in airless environments.\n\nThis Limiter is also inappropriate if a limited environment is implicit in the Attribute, such as Water Speed being limited to travel through liquids. Environmental is useful for creating an internal Attribute such as a Weapon or Sixth Sense that are only usable within a specific structure or inside a large Item such as a starship.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -231,7 +231,7 @@
   },
   {
     "name": "Imbue",
-    "description": "Imbue is usually assigned with the Charges Limiter.\nThe character does not use the Attribute themselves but instead grants its use (excluding Imbue effect) to others for the duration of one dramatic scene. Imbue can represent blessings performed by the character for protection, inspirational speeches that encourage others, a special wish-granting ability, technical upgrades performed by the character, etc.\nThis Limiter is often assigned to one of the following Attributes, though the GM may expand this list as desired: Armour, Augmented, Heightened Awareness, Immutable, Massive Damage, Melee Attack, Melee Defence, Mulligan, Ranged Attack, Ranged Defence, Resilient, and Special Movement.",
+    "description": "Imbue is usually assigned with the Charges Limiter. The character does not use the Attribute themselves but instead grants its use (excluding Imbue effect) to others for the duration of one dramatic scene. Imbue can represent blessings performed by the character for protection, inspirational speeches that encourage others, a special wish-granting ability, technical upgrades performed by the character, etc.\n\nThis Limiter is often assigned to one of the following Attributes, though the GM may expand this list as desired: Armour, Augmented, Heightened Awareness, Immutable, Massive Damage, Melee Attack, Melee Defence, Mulligan, Ranged Attack, Ranged Defence, Resilient, and Special Movement.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -249,7 +249,7 @@
   },
   {
     "name": "Irreversible",
-    "description": "This Limiter can only be taken in conjunction with Attributes that change the physical appearance or structure of the character, such as Alternate Form, Alternate Identity, Change State, Elasticity, or Undetectable. Once the character has transformed from their normal state, they cannot transform back to a prior form without meeting certain conditions.\nThis might include a magical ritual, work by mechanics or lab technicians, consuming a specific substance, or simply the passage of time.",
+    "description": "This Limiter can only be taken in conjunction with Attributes that change the physical appearance or structure of the character, such as Alternate Form, Alternate Identity, Change State, Elasticity, or Undetectable. Once the character has transformed from their normal state, they cannot transform back to a prior form without meeting certain conditions. This might include a magical ritual, work by mechanics or lab technicians, consuming a specific substance, or simply the passage of time.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -267,7 +267,7 @@
   },
   {
     "name": "Localised",
-    "description": "Only part of the character’s body is affected by a specific Attribute. Localised is most commonly used for the following Attributes: Absorption, Alternate Form, Armour, Change State, Conversion, Resilient, Superstrength, and Undetectable.\nFor example, a character might only receive Armour benefits against abdominal attacks, or possess the ability to turn their left arm invisible only, or have bionic legs with Superstrength, etc. LOCALISED ITEM ARMOUR Creating a vehicle Item that has Armour with one assignment of the Localised Limiter usually indicates that the character rides on top of the vehicle rather than inside it (which is contrary to the normal use of most vehicles), and consequently it does not provide full Armour protection.\nFor example, motorcycles, small motorboats, ultralight aircraft, etc. all have one assignment of the Localised Limiter on their Armour.",
+    "description": "Only part of the character’s body is affected by a specific Attribute. Localised is most commonly used for the following Attributes: Absorption, Alternate Form, Armour, Change State, Conversion, Resilient, Superstrength, and Undetectable.\n\nFor example, a character might only receive Armour benefits against abdominal attacks, or possess the ability to turn their left arm invisible only, or have bionic legs with Superstrength, etc.\n\n**LOCALISED ITEM ARMOUR**\nCreating a vehicle Item that has Armour with one assignment of the Localised Limiter usually indicates that the character rides on top of the vehicle rather than inside it (which is contrary to the normal use of most vehicles), and consequently it does not provide full Armour protection.\n\nFor example, motorcycles, small motorboats, ultralight aircraft, etc. all have one assignment of the Localised Limiter on their Armour.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -285,7 +285,7 @@
   },
   {
     "name": "Maximum",
-    "description": "The character cannot use the specific Attribute at the lower end of its power range and always functions at its Maximum strength (consider effective Level, not actual Level).\nThis could represent a character who is too talented for their own good, an Item that only functions within certain maximum parameters, a powerful character who pushes the Attribute’s limits so often that they have forgotten how to use it at a lower Levels, etc.\nThis Limiter is usually only appropriate for the following Attributes: Change State, Dynamic Powers, Elasticity, Flight, Ground Speed, Illusion, Jumping, Plant Control, Projection, Spaceflight, Superspeed, Teleport, Transmute, and Water Speed.\nThe GM must approve its exact application to ensure the Attribute is sufficiently limited.",
+    "description": "The character cannot use the specific Attribute at the lower end of its power range and always functions at its Maximum strength (consider effective Level, not actual Level). This could represent a character who is too talented for their own good, an Item that only functions within certain maximum parameters, a powerful character who pushes the Attribute’s limits so often that they have forgotten how to use it at a lower Levels, etc.\n\nThis Limiter is usually only appropriate for the following Attributes: Change State, Dynamic Powers, Elasticity, Flight, Ground Speed, Illusion, Jumping, Plant Control, Projection, Spaceflight, Superspeed, Teleport, Transmute, and Water Speed. The GM must approve its exact application to ensure the Attribute is sufficiently limited.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -303,7 +303,7 @@
   },
   {
     "name": "Object",
-    "description": "Object is usually assigned to Attributes contained within Items that are contrary to the Item’s “normal use” and are only useful for the benefit of the Item itself and not the character who uses it.\nFor example, a magic ring with Armour and the Object Limiter would be harder to destroy because it has Armour but would not give the wearing character any Armour (which would be the normal use of an Item with Armour). Similarly, a cloak with Flight and the Object Limiter might be able to fly to the wearer upon command but the character could not actually fly while wearing it (which would be the normal use of an Item with Flight).\nWhen in doubt what “normal use” for an Item is, consult the Game Master.",
+    "description": "Object is usually assigned to Attributes contained within Items that are contrary to the Item’s “normal use” and are only useful for the benefit of the Item itself and not the character who uses it.\n\nFor example, a magic ring with Armour and the Object Limiter would be harder to destroy because it has Armour but would not give the wearing character any Armour (which would be the normal use of an Item with Armour).\n\nSimilarly, a cloak with Flight and the Object Limiter might be able to fly to the wearer upon command but the character could not actually fly while wearing it (which would be the normal use of an Item with Flight). When in doubt what “normal use” for an Item is, consult the Game Master.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -321,7 +321,7 @@
   },
   {
     "name": "Permanent",
-    "description": "The Attribute is always functioning and the character cannot turn it off.\nThis Limiter only applies to Attributes that would inconvenience the character if the Attribute is always active, such as Change State, Force Field, Nullify, Undetectable, etc.\nThe player and GM should discuss the problems and limitations associated with an eternally active Attribute.",
+    "description": "The Attribute is always functioning and the character cannot turn it off.\n\nThis Limiter only applies to Attributes that would inconvenience the character if the Attribute is always active, such as Change State, Force Field, Nullify, Undetectable, etc. The player and GM should discuss the problems and limitations associated with an eternally active Attribute.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -339,7 +339,7 @@
   },
   {
     "name": "Recovery",
-    "description": "After the character uses the ongoing Attribute, they cannot use it again for a specific period of time.\nThe longer the Attribute is used, the longer the rest period must be.\nFor example, the muscles of a character with Superstrength may need time to recuperate after use, or an Item that grants Flight may need to be recharged between uses. Only under exceptional circumstances (and at a great sacrifice, as determined by the GM) can the character use the Attribute again before the waiting period has elapsed.\nThis Limiter is usually incompatible with the Deplete and Charges Limiter.1 Assignment For every 1 minute the character uses the Attribute, the Recovery time is 1 minute before the Attribute functions again.\nThe Attribute can be used for a maximum of 12 hours.",
+    "description": "After the character uses the ongoing Attribute, they cannot use it again for a specific period of time. The longer the Attribute is used, the longer the rest period must be.\n\nFor example, the muscles of a character with Superstrength may need time to recuperate after use, or an Item that grants Flight may need to be recharged between uses. Only under exceptional circumstances (and at a great sacrifice, as determined by the GM) can the character use the Attribute again before the waiting period has elapsed.\n\nThis Limiter is usually incompatible with the Deplete and Charges Limiter.1 Assignment For every 1 minute the character uses the Attribute, the Recovery time is 1 minute before the Attribute functions again. The Attribute can be used for a maximum of 12 hours.",
     "assignment_effects": [
       {
         "assignments": 2,
@@ -365,7 +365,7 @@
   },
   {
     "name": "Unique Limiter",
-    "description": "This covers any and all possible Limiters that an Attribute might possess but are not detailed in the rules.\nThis offers a near-endless number of restrictions and consequently the player and GM should discuss the ramifications of the Unique Limiter.",
+    "description": "This covers any and all possible Limiters that an Attribute might possess but are not detailed in the rules. This offers a near-endless number of restrictions and consequently the player and GM should discuss the ramifications of the Unique Limiter.",
     "assignment_effects": [
       {
         "assignments": 1,
@@ -383,7 +383,7 @@
   },
   {
     "name": "Unpredictable",
-    "description": "The character’s Attribute frequently does not function when desired and requires a successful Stat roll to use.\nIf the Attribute does not have a “Relevant Stat” entry, use the character’s Soul Stat. At the GM’s and player’s discretion, Unpredictable can also represent an Attribute that does not always function in the manner desired.\nFor example, a character with Plant Control might control the wrong plants, or a Force Field might not always appear in the correct place. For this alternative, the Stat roll determines if the Attribute operates properly with a failed roll indicating that it activates in an unexpected manner.",
+    "description": "The character’s Attribute frequently does not function when desired and requires a successful Stat roll to use. If the Attribute does not have a “Relevant Stat” entry, use the character’s Soul Stat. At the GM’s and player’s discretion, Unpredictable can also represent an Attribute that does not always function in the manner desired.\n\nFor example, a character with Plant Control might control the wrong plants, or a Force Field might not always appear in the correct place. For this alternative, the Stat roll determines if the Attribute operates properly with a failed roll indicating that it activates in an unexpected manner.",
     "assignment_effects": [
       {
         "assignments": 1,
